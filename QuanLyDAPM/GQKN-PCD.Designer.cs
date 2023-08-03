@@ -80,18 +80,20 @@
             // label12
             // 
             label12.AutoSize = true;
+            label12.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             label12.Location = new Point(621, 70);
             label12.Name = "label12";
-            label12.Size = new Size(199, 20);
+            label12.Size = new Size(205, 20);
             label12.TabIndex = 26;
             label12.Text = "Độc lập - Tự do - Hạnh phúc";
             // 
             // label11
             // 
             label11.AutoSize = true;
+            label11.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             label11.Location = new Point(572, 43);
             label11.Name = "label11";
-            label11.Size = new Size(294, 20);
+            label11.Size = new Size(311, 20);
             label11.TabIndex = 25;
             label11.Text = "CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM";
             // 
