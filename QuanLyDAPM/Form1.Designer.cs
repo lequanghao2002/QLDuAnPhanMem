@@ -104,27 +104,27 @@
             // phiếuChuyểnĐơnToolStripMenuItem
             // 
             phiếuChuyểnĐơnToolStripMenuItem.Name = "phiếuChuyểnĐơnToolStripMenuItem";
-            phiếuChuyểnĐơnToolStripMenuItem.Size = new Size(224, 26);
+            phiếuChuyểnĐơnToolStripMenuItem.Size = new Size(208, 26);
             phiếuChuyểnĐơnToolStripMenuItem.Text = "Phiếu chuyển đơn";
             phiếuChuyểnĐơnToolStripMenuItem.Click += phiếuChuyểnĐơnToolStripMenuItem_Click;
             // 
             // biênBảnKiểmTraToolStripMenuItem
             // 
             biênBảnKiểmTraToolStripMenuItem.Name = "biênBảnKiểmTraToolStripMenuItem";
-            biênBảnKiểmTraToolStripMenuItem.Size = new Size(224, 26);
+            biênBảnKiểmTraToolStripMenuItem.Size = new Size(208, 26);
             biênBảnKiểmTraToolStripMenuItem.Text = "Biên bản kiểm tra";
             biênBảnKiểmTraToolStripMenuItem.Click += biênBảnKiểmTraToolStripMenuItem_Click;
             // 
             // báoCáoToolStripMenuItem
             // 
             báoCáoToolStripMenuItem.Name = "báoCáoToolStripMenuItem";
-            báoCáoToolStripMenuItem.Size = new Size(224, 26);
+            báoCáoToolStripMenuItem.Size = new Size(208, 26);
             báoCáoToolStripMenuItem.Text = "Báo cáo";
             // 
             // vănBảnTrảLờiToolStripMenuItem
             // 
             vănBảnTrảLờiToolStripMenuItem.Name = "vănBảnTrảLờiToolStripMenuItem";
-            vănBảnTrảLờiToolStripMenuItem.Size = new Size(224, 26);
+            vănBảnTrảLờiToolStripMenuItem.Size = new Size(208, 26);
             vănBảnTrảLờiToolStripMenuItem.Text = "Văn bản trả lời";
             // 
             // Form1
@@ -135,7 +135,8 @@
             Controls.Add(menuStrip1);
             MainMenuStrip = menuStrip1;
             Name = "Form1";
-            Text = "Form1";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "Quản lý dự án phần mềm";
             menuStrip1.ResumeLayout(false);
             menuStrip1.PerformLayout();
             ResumeLayout(false);

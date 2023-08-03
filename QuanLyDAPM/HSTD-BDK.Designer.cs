@@ -87,19 +87,35 @@
             label33 = new Label();
             textBox24 = new TextBox();
             textBox25 = new TextBox();
-            textBox26 = new TextBox();
+            label34 = new Label();
+            textBox28 = new TextBox();
+            label35 = new Label();
+            label36 = new Label();
+            label38 = new Label();
+            label39 = new Label();
+            label41 = new Label();
+            label40 = new Label();
+            label42 = new Label();
+            label43 = new Label();
+            label44 = new Label();
+            label45 = new Label();
+            label46 = new Label();
+            label37 = new Label();
+            label47 = new Label();
+            button1 = new Button();
+            button2 = new Button();
             SuspendLayout();
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(62, 60);
+            textBox1.Location = new Point(117, 60);
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(97, 27);
+            textBox1.Size = new Size(113, 27);
             textBox1.TabIndex = 1;
             // 
             // textBox2
             // 
-            textBox2.Location = new Point(75, 130);
+            textBox2.Location = new Point(149, 128);
             textBox2.Name = "textBox2";
             textBox2.Size = new Size(55, 27);
             textBox2.TabIndex = 2;
@@ -123,7 +139,7 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(33, 133);
+            label1.Location = new Point(117, 135);
             label1.Name = "label1";
             label1.Size = new Size(26, 20);
             label1.TabIndex = 7;
@@ -141,9 +157,10 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(374, 245);
+            label3.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
+            label3.Location = new Point(356, 243);
             label3.Name = "label3";
-            label3.Size = new Size(71, 20);
+            label3.Size = new Size(88, 23);
             label3.TabIndex = 9;
             label3.Text = "Kính gửi: ";
             // 
@@ -151,7 +168,7 @@
             // 
             textBox7.Location = new Point(444, 242);
             textBox7.Name = "textBox7";
-            textBox7.Size = new Size(125, 27);
+            textBox7.Size = new Size(234, 27);
             textBox7.TabIndex = 10;
             // 
             // label4
@@ -189,6 +206,7 @@
             // label8
             // 
             label8.AutoSize = true;
+            label8.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
             label8.Location = new Point(33, 477);
             label8.Name = "label8";
             label8.Size = new Size(354, 20);
@@ -205,9 +223,10 @@
             // label9
             // 
             label9.AutoSize = true;
+            label9.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             label9.Location = new Point(33, 507);
             label9.Name = "label9";
-            label9.Size = new Size(284, 20);
+            label9.Size = new Size(303, 20);
             label9.TabIndex = 19;
             label9.Text = "1. Thông tin chung về dự án đầu tư, cơ sở:";
             // 
@@ -223,18 +242,20 @@
             // label11
             // 
             label11.AutoSize = true;
+            label11.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
             label11.Location = new Point(570, 33);
             label11.Name = "label11";
-            label11.Size = new Size(294, 20);
+            label11.Size = new Size(415, 28);
             label11.TabIndex = 23;
             label11.Text = "CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM";
             // 
             // label12
             // 
             label12.AutoSize = true;
+            label12.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
             label12.Location = new Point(619, 60);
             label12.Name = "label12";
-            label12.Size = new Size(199, 20);
+            label12.Size = new Size(281, 28);
             label12.TabIndex = 24;
             label12.Text = "Độc lập - Tự do - Hạnh phúc";
             // 
@@ -286,6 +307,7 @@
             // 
             // label16
             // 
+            label16.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
             label16.Location = new Point(33, 272);
             label16.Name = "label16";
             label16.Size = new Size(943, 44);
@@ -383,6 +405,7 @@
             // 
             // label21
             // 
+            label21.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             label21.Location = new Point(33, 615);
             label21.Name = "label21";
             label21.Size = new Size(940, 54);
@@ -400,9 +423,10 @@
             // label22
             // 
             label22.AutoSize = true;
+            label22.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             label22.Location = new Point(33, 697);
             label22.Name = "label22";
-            label22.Size = new Size(416, 20);
+            label22.Size = new Size(442, 20);
             label22.TabIndex = 43;
             label22.Text = "3. Loại, khối lượng chất thải phát sinh của dự án đầu tư, cơ sở.\r\n";
             // 
@@ -491,9 +515,10 @@
             // label28
             // 
             label28.AutoSize = true;
+            label28.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             label28.Location = new Point(33, 1035);
             label28.Name = "label28";
-            label28.Size = new Size(486, 40);
+            label28.Size = new Size(518, 40);
             label28.TabIndex = 43;
             label28.Text = "4. Phương án thu gom, quản lý và xử lý chất thải của dự án đầu tư, cơ sở:\r\n\r\n";
             // 
@@ -558,12 +583,165 @@
             textBox25.Size = new Size(940, 27);
             textBox25.TabIndex = 46;
             // 
-            // textBox26
+            // label34
             // 
-            textBox26.Location = new Point(33, 1343);
-            textBox26.Name = "textBox26";
-            textBox26.Size = new Size(940, 27);
-            textBox26.TabIndex = 46;
+            label34.AutoSize = true;
+            label34.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            label34.Location = new Point(33, 1386);
+            label34.Name = "label34";
+            label34.Size = new Size(350, 40);
+            label34.TabIndex = 43;
+            label34.Text = "5. Cam kết thực hiện công tác bảo vệ môi trường\r\n\r\n";
+            // 
+            // textBox28
+            // 
+            textBox28.Location = new Point(36, 1341);
+            textBox28.Name = "textBox28";
+            textBox28.Size = new Size(940, 27);
+            textBox28.TabIndex = 42;
+            // 
+            // label35
+            // 
+            label35.Location = new Point(36, 1417);
+            label35.Name = "label35";
+            label35.Size = new Size(940, 231);
+            label35.TabIndex = 47;
+            label35.Text = resources.GetString("label35.Text");
+            // 
+            // label36
+            // 
+            label36.AutoSize = true;
+            label36.Location = new Point(36, 1621);
+            label36.Name = "label36";
+            label36.Size = new Size(332, 40);
+            label36.TabIndex = 43;
+            label36.Text = "5. Cam kết thực hiện công tác bảo vệ môi trường\r\n\r\n";
+            // 
+            // label38
+            // 
+            label38.AutoSize = true;
+            label38.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            label38.Location = new Point(41, 1668);
+            label38.Name = "label38";
+            label38.Size = new Size(73, 20);
+            label38.TabIndex = 48;
+            label38.Text = "Nơi nhận";
+            // 
+            // label39
+            // 
+            label39.AutoSize = true;
+            label39.Location = new Point(41, 1703);
+            label39.Name = "label39";
+            label39.Size = new Size(77, 20);
+            label39.TabIndex = 48;
+            label39.Text = "- Như trên";
+            // 
+            // label41
+            // 
+            label41.AutoSize = true;
+            label41.Location = new Point(41, 1737);
+            label41.Name = "label41";
+            label41.Size = new Size(28, 20);
+            label41.TabIndex = 48;
+            label41.Text = "- ...";
+            // 
+            // label40
+            // 
+            label40.AutoSize = true;
+            label40.Location = new Point(41, 1770);
+            label40.Name = "label40";
+            label40.Size = new Size(56, 20);
+            label40.TabIndex = 48;
+            label40.Text = "- Lưu ...";
+            // 
+            // label42
+            // 
+            label42.AutoSize = true;
+            label42.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            label42.Location = new Point(519, 1648);
+            label42.Name = "label42";
+            label42.Size = new Size(381, 28);
+            label42.TabIndex = 49;
+            label42.Text = "QUYỀN HẠN, CHỨC VỤ CỦA NGƯỜI KÝ";
+            // 
+            // label43
+            // 
+            label43.AutoSize = true;
+            label43.Font = new Font("Segoe UI", 10.2F, FontStyle.Regular, GraphicsUnit.Point);
+            label43.Location = new Point(422, 1676);
+            label43.Name = "label43";
+            label43.Size = new Size(554, 23);
+            label43.TabIndex = 50;
+            label43.Text = "(Chữ ký của người có thẩm quyền, dấu/chữ ký số của cơ quan, tổ chức)";
+            // 
+            // label44
+            // 
+            label44.Location = new Point(41, 1847);
+            label44.Name = "label44";
+            label44.Size = new Size(312, 138);
+            label44.TabIndex = 51;
+            label44.Text = "(1) Chủ dự án đầu tư, cơ sở;\r\n\r\n(2) Dự án đầu tư, cơ sở;\r\n\r\n(3) Ủy ban nhân dân cấp xã nơi triển khai (2)";
+            label44.Click += label44_Click;
+            // 
+            // label45
+            // 
+            label45.AutoSize = true;
+            label45.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            label45.Location = new Point(41, 1816);
+            label45.Name = "label45";
+            label45.Size = new Size(66, 20);
+            label45.TabIndex = 48;
+            label45.Text = "Ghi chú:";
+            label45.Click += label45_Click;
+            // 
+            // label46
+            // 
+            label46.AutoSize = true;
+            label46.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            label46.Location = new Point(659, 1802);
+            label46.Name = "label46";
+            label46.Size = new Size(76, 20);
+            label46.TabIndex = 48;
+            label46.Text = "Họ và tên";
+            label46.Click += label45_Click;
+            // 
+            // label37
+            // 
+            label37.AutoSize = true;
+            label37.Location = new Point(160, 33);
+            label37.Name = "label37";
+            label37.Size = new Size(27, 20);
+            label37.TabIndex = 7;
+            label37.Text = "(1)";
+            // 
+            // label47
+            // 
+            label47.AutoSize = true;
+            label47.Location = new Point(678, 97);
+            label47.Name = "label47";
+            label47.Size = new Size(165, 20);
+            label47.TabIndex = 52;
+            label47.Text = "**************************";
+            // 
+            // button1
+            // 
+            button1.Font = new Font("Segoe UI", 10.2F, FontStyle.Regular, GraphicsUnit.Point);
+            button1.Location = new Point(598, 1718);
+            button1.Name = "button1";
+            button1.Size = new Size(193, 58);
+            button1.TabIndex = 53;
+            button1.Text = "Tải lên chữ ký";
+            button1.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            button2.Font = new Font("Segoe UI", 10.2F, FontStyle.Regular, GraphicsUnit.Point);
+            button2.Location = new Point(598, 1832);
+            button2.Name = "button2";
+            button2.Size = new Size(193, 51);
+            button2.TabIndex = 53;
+            button2.Text = "Tải lên họ và tên";
+            button2.UseVisualStyleBackColor = true;
             // 
             // HSTD_BDK
             // 
@@ -571,7 +749,19 @@
             AutoScaleMode = AutoScaleMode.Font;
             AutoScroll = true;
             ClientSize = new Size(1008, 1039);
-            Controls.Add(textBox26);
+            Controls.Add(button2);
+            Controls.Add(button1);
+            Controls.Add(label47);
+            Controls.Add(label44);
+            Controls.Add(label43);
+            Controls.Add(label42);
+            Controls.Add(label40);
+            Controls.Add(label41);
+            Controls.Add(label39);
+            Controls.Add(label46);
+            Controls.Add(label45);
+            Controls.Add(label38);
+            Controls.Add(label35);
             Controls.Add(textBox21);
             Controls.Add(textBox25);
             Controls.Add(textBox20);
@@ -587,8 +777,11 @@
             Controls.Add(label25);
             Controls.Add(label29);
             Controls.Add(label23);
+            Controls.Add(textBox28);
             Controls.Add(textBox23);
             Controls.Add(textBox19);
+            Controls.Add(label36);
+            Controls.Add(label34);
             Controls.Add(label28);
             Controls.Add(textBox22);
             Controls.Add(label22);
@@ -625,6 +818,7 @@
             Controls.Add(textBox7);
             Controls.Add(label3);
             Controls.Add(label2);
+            Controls.Add(label37);
             Controls.Add(label1);
             Controls.Add(textBox4);
             Controls.Add(textBox3);
@@ -698,6 +892,22 @@
         private Label label33;
         private TextBox textBox24;
         private TextBox textBox25;
-        private TextBox textBox26;
+        private Label label34;
+        private TextBox textBox28;
+        private Label label35;
+        private Label label36;
+        private Label label38;
+        private Label label39;
+        private Label label41;
+        private Label label40;
+        private Label label42;
+        private Label label43;
+        private Label label44;
+        private Label label45;
+        private Label label46;
+        private Label label37;
+        private Label label47;
+        private Button button1;
+        private Button button2;
     }
 }

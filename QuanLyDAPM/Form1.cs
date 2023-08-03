@@ -14,12 +14,14 @@
 
         private void bảnĐăngKýTCMTToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            var temp = new HSTD_BDK();
+            temp.Show();
         }
 
         private void banToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            var temp = new HSTD_CKcs();
+            temp.Show();
         }
 
         private void phiếuChuyểnĐơnToolStripMenuItem_Click(object sender, EventArgs e)
