@@ -117,7 +117,7 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
+  <data name="label18.Text" xml:space="preserve">
+    <value>Căn cứ quy định của Luật Tố cáo, Nghị định số 31/2019/NĐ-CP ngày 10/4/2019 của Chính phủ Quy định chi tiết một số điều và biện pháp tổ chức thi hành Luật Tố cáo, Thông tư số 05/2021/TT-TTCP ngày 01 tháng 10 năm 2021 của Thanh tra Chính phủ quy định quy trình xử lý đơn khiếu nại, đơn tố cáo, đơn kiến nghị, phản ánh</value>
+  </data>
 </root>

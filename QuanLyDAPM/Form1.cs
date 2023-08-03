@@ -21,5 +21,17 @@
         {
 
         }
+
+        private void phiếuChuyểnĐơnToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var temp = new GQKN_PCD();
+            temp.Show();
+        }
+
+        private void biênBảnKiểmTraToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var temp = new GQKN_BBKT();
+            temp.Show();
+        }
     }
 }

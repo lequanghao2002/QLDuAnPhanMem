@@ -30,12 +30,12 @@
         {
             menuStrip1 = new MenuStrip();
             hồSơThẩmĐịnhToolStripMenuItem = new ToolStripMenuItem();
-            quảnLýHồSơToolStripMenuItem = new ToolStripMenuItem();
-            giảiQuyếtKhiếuNạiToolStripMenuItem = new ToolStripMenuItem();
             bảnĐăngKýTCMTToolStripMenuItem = new ToolStripMenuItem();
             banToolStripMenuItem = new ToolStripMenuItem();
+            quảnLýHồSơToolStripMenuItem = new ToolStripMenuItem();
             bảnĐăngKýTCMTToolStripMenuItem1 = new ToolStripMenuItem();
             camKếtBVMTToolStripMenuItem = new ToolStripMenuItem();
+            giảiQuyếtKhiếuNạiToolStripMenuItem = new ToolStripMenuItem();
             phiếuChuyểnĐơnToolStripMenuItem = new ToolStripMenuItem();
             biênBảnKiểmTraToolStripMenuItem = new ToolStripMenuItem();
             báoCáoToolStripMenuItem = new ToolStripMenuItem();
@@ -61,12 +61,38 @@
             hồSơThẩmĐịnhToolStripMenuItem.Size = new Size(133, 24);
             hồSơThẩmĐịnhToolStripMenuItem.Text = "Hồ sơ thẩm định";
             // 
+            // bảnĐăngKýTCMTToolStripMenuItem
+            // 
+            bảnĐăngKýTCMTToolStripMenuItem.Name = "bảnĐăngKýTCMTToolStripMenuItem";
+            bảnĐăngKýTCMTToolStripMenuItem.Size = new Size(214, 26);
+            bảnĐăngKýTCMTToolStripMenuItem.Text = "Bản đăng ký TCMT";
+            bảnĐăngKýTCMTToolStripMenuItem.Click += bảnĐăngKýTCMTToolStripMenuItem_Click;
+            // 
+            // banToolStripMenuItem
+            // 
+            banToolStripMenuItem.Name = "banToolStripMenuItem";
+            banToolStripMenuItem.Size = new Size(214, 26);
+            banToolStripMenuItem.Text = "Cam kết BVMT";
+            banToolStripMenuItem.Click += banToolStripMenuItem_Click;
+            // 
             // quảnLýHồSơToolStripMenuItem
             // 
             quảnLýHồSơToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { bảnĐăngKýTCMTToolStripMenuItem1, camKếtBVMTToolStripMenuItem });
             quảnLýHồSơToolStripMenuItem.Name = "quảnLýHồSơToolStripMenuItem";
             quảnLýHồSơToolStripMenuItem.Size = new Size(113, 24);
             quảnLýHồSơToolStripMenuItem.Text = "Quản lý hồ sơ";
+            // 
+            // bảnĐăngKýTCMTToolStripMenuItem1
+            // 
+            bảnĐăngKýTCMTToolStripMenuItem1.Name = "bảnĐăngKýTCMTToolStripMenuItem1";
+            bảnĐăngKýTCMTToolStripMenuItem1.Size = new Size(214, 26);
+            bảnĐăngKýTCMTToolStripMenuItem1.Text = "Bản đăng ký TCMT";
+            // 
+            // camKếtBVMTToolStripMenuItem
+            // 
+            camKếtBVMTToolStripMenuItem.Name = "camKếtBVMTToolStripMenuItem";
+            camKếtBVMTToolStripMenuItem.Size = new Size(214, 26);
+            camKếtBVMTToolStripMenuItem.Text = "Cam kết BVMT";
             // 
             // giảiQuyếtKhiếuNạiToolStripMenuItem
             // 
@@ -75,43 +101,19 @@
             giảiQuyếtKhiếuNạiToolStripMenuItem.Size = new Size(153, 24);
             giảiQuyếtKhiếuNạiToolStripMenuItem.Text = "Giải quyết khiếu nại";
             // 
-            // bảnĐăngKýTCMTToolStripMenuItem
-            // 
-            bảnĐăngKýTCMTToolStripMenuItem.Name = "bảnĐăngKýTCMTToolStripMenuItem";
-            bảnĐăngKýTCMTToolStripMenuItem.Size = new Size(224, 26);
-            bảnĐăngKýTCMTToolStripMenuItem.Text = "Bản đăng ký TCMT";
-            bảnĐăngKýTCMTToolStripMenuItem.Click += bảnĐăngKýTCMTToolStripMenuItem_Click;
-            // 
-            // banToolStripMenuItem
-            // 
-            banToolStripMenuItem.Name = "banToolStripMenuItem";
-            banToolStripMenuItem.Size = new Size(224, 26);
-            banToolStripMenuItem.Text = "Cam kết BVMT";
-            banToolStripMenuItem.Click += banToolStripMenuItem_Click;
-            // 
-            // bảnĐăngKýTCMTToolStripMenuItem1
-            // 
-            bảnĐăngKýTCMTToolStripMenuItem1.Name = "bảnĐăngKýTCMTToolStripMenuItem1";
-            bảnĐăngKýTCMTToolStripMenuItem1.Size = new Size(224, 26);
-            bảnĐăngKýTCMTToolStripMenuItem1.Text = "Bản đăng ký TCMT";
-            // 
-            // camKếtBVMTToolStripMenuItem
-            // 
-            camKếtBVMTToolStripMenuItem.Name = "camKếtBVMTToolStripMenuItem";
-            camKếtBVMTToolStripMenuItem.Size = new Size(224, 26);
-            camKếtBVMTToolStripMenuItem.Text = "Cam kết BVMT";
-            // 
             // phiếuChuyểnĐơnToolStripMenuItem
             // 
             phiếuChuyểnĐơnToolStripMenuItem.Name = "phiếuChuyểnĐơnToolStripMenuItem";
             phiếuChuyểnĐơnToolStripMenuItem.Size = new Size(224, 26);
             phiếuChuyểnĐơnToolStripMenuItem.Text = "Phiếu chuyển đơn";
+            phiếuChuyểnĐơnToolStripMenuItem.Click += phiếuChuyểnĐơnToolStripMenuItem_Click;
             // 
             // biênBảnKiểmTraToolStripMenuItem
             // 
             biênBảnKiểmTraToolStripMenuItem.Name = "biênBảnKiểmTraToolStripMenuItem";
             biênBảnKiểmTraToolStripMenuItem.Size = new Size(224, 26);
             biênBảnKiểmTraToolStripMenuItem.Text = "Biên bản kiểm tra";
+            biênBảnKiểmTraToolStripMenuItem.Click += biênBảnKiểmTraToolStripMenuItem_Click;
             // 
             // báoCáoToolStripMenuItem
             // 
