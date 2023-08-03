@@ -71,6 +71,23 @@
             textBox17 = new TextBox();
             label24 = new Label();
             textBox18 = new TextBox();
+            textBox19 = new TextBox();
+            label25 = new Label();
+            label26 = new Label();
+            textBox20 = new TextBox();
+            label27 = new Label();
+            textBox21 = new TextBox();
+            textBox22 = new TextBox();
+            label28 = new Label();
+            textBox23 = new TextBox();
+            label29 = new Label();
+            label30 = new Label();
+            label31 = new Label();
+            label32 = new Label();
+            label33 = new Label();
+            textBox24 = new TextBox();
+            textBox25 = new TextBox();
+            textBox26 = new TextBox();
             SuspendLayout();
             // 
             // textBox1
@@ -419,15 +436,161 @@
             textBox18.Size = new Size(940, 27);
             textBox18.TabIndex = 46;
             // 
+            // textBox19
+            // 
+            textBox19.Location = new Point(33, 880);
+            textBox19.Name = "textBox19";
+            textBox19.Size = new Size(940, 27);
+            textBox19.TabIndex = 42;
+            // 
+            // label25
+            // 
+            label25.Location = new Point(33, 852);
+            label25.Name = "label25";
+            label25.Size = new Size(943, 25);
+            label25.TabIndex = 44;
+            label25.Text = "- Loại và khối lượng chất thải rắn sinh hoạt phát sinh hoặc dự kiến phát sinh (trường hợp đăng ký mới trường cho dự án đầu tư)\r\n\r\n\r\n\r\n\r\n";
+            // 
+            // label26
+            // 
+            label26.Location = new Point(33, 910);
+            label26.Name = "label26";
+            label26.Size = new Size(943, 25);
+            label26.TabIndex = 45;
+            label26.Text = "- Loại và khối lượng chất thải rắn công nghiệp thông thường phát sinh hoặc dự kiến phát sinh (trưởng hợp đăng ký môi trường cho dự án đầu tư):...\r\n";
+            // 
+            // textBox20
+            // 
+            textBox20.Location = new Point(33, 938);
+            textBox20.Name = "textBox20";
+            textBox20.Size = new Size(940, 27);
+            textBox20.TabIndex = 46;
+            // 
+            // label27
+            // 
+            label27.Location = new Point(33, 977);
+            label27.Name = "label27";
+            label27.Size = new Size(943, 25);
+            label27.TabIndex = 45;
+            label27.Text = "- Loại và khối lượng chất thải nguy hại phát sinh hoặc dự kiến phát sinh (trường hợp đăng ký mới trưởng cho dự án đầu tư)...\r\n";
+            // 
+            // textBox21
+            // 
+            textBox21.Location = new Point(33, 1005);
+            textBox21.Name = "textBox21";
+            textBox21.Size = new Size(940, 27);
+            textBox21.TabIndex = 46;
+            // 
+            // textBox22
+            // 
+            textBox22.Location = new Point(33, 1093);
+            textBox22.Name = "textBox22";
+            textBox22.Size = new Size(940, 27);
+            textBox22.TabIndex = 42;
+            // 
+            // label28
+            // 
+            label28.AutoSize = true;
+            label28.Location = new Point(33, 1035);
+            label28.Name = "label28";
+            label28.Size = new Size(486, 40);
+            label28.TabIndex = 43;
+            label28.Text = "4. Phương án thu gom, quản lý và xử lý chất thải của dự án đầu tư, cơ sở:\r\n\r\n";
+            // 
+            // textBox23
+            // 
+            textBox23.Location = new Point(33, 1218);
+            textBox23.Name = "textBox23";
+            textBox23.Size = new Size(940, 27);
+            textBox23.TabIndex = 42;
+            // 
+            // label29
+            // 
+            label29.Location = new Point(33, 1065);
+            label29.Name = "label29";
+            label29.Size = new Size(943, 25);
+            label29.TabIndex = 44;
+            label29.Text = "- Phương án thu gom, quản lý và xử lý nước thải phát sinh hoặc dự kiến phát sinh (trường hợp đăng ký môi trường cho dự án đầu tư):.\r\n\r\n\r\n\r\n\r\n";
+            // 
+            // label30
+            // 
+            label30.Location = new Point(33, 1190);
+            label30.Name = "label30";
+            label30.Size = new Size(943, 25);
+            label30.TabIndex = 44;
+            label30.Text = "- Phương án thu gom, quản lý và xử lý chất rắn thải phát sinh hoặc dự kiến phát sinh (trường hợp đăng ký môi trường cho dự án đầu tư):.\r\n\r\n\r\n\r\n\r\n";
+            // 
+            // label31
+            // 
+            label31.Location = new Point(33, 1123);
+            label31.Name = "label31";
+            label31.Size = new Size(943, 25);
+            label31.TabIndex = 45;
+            label31.Text = "- Phương án thu gom, quản lý và xử lý khí thải phát sinh hoặc dự kiến phát sinh (trường hợp đăng ký môi trường cho dự án đầu tư):.\r\n";
+            // 
+            // label32
+            // 
+            label32.Location = new Point(33, 1248);
+            label32.Name = "label32";
+            label32.Size = new Size(943, 25);
+            label32.TabIndex = 45;
+            label32.Text = "- Phương án thu gom, quản lý và xử lý chất thải rắn công nghiệp thông thường phát sinh hoặc dự kiến phát sinh (trường hợp đăng ký môi trường cho dự án đầu tư)...\r\n";
+            // 
+            // label33
+            // 
+            label33.Location = new Point(33, 1315);
+            label33.Name = "label33";
+            label33.Size = new Size(943, 25);
+            label33.TabIndex = 45;
+            label33.Text = "- Phương án thu gom, quản lý và xử lý chất thải nguy hại phát sinh hoặc dự kiến phát sinh (trường hợp đăng ký môi trường cho dự án đầu tư)..\r\n";
+            // 
+            // textBox24
+            // 
+            textBox24.Location = new Point(33, 1151);
+            textBox24.Name = "textBox24";
+            textBox24.Size = new Size(940, 27);
+            textBox24.TabIndex = 46;
+            // 
+            // textBox25
+            // 
+            textBox25.Location = new Point(33, 1276);
+            textBox25.Name = "textBox25";
+            textBox25.Size = new Size(940, 27);
+            textBox25.TabIndex = 46;
+            // 
+            // textBox26
+            // 
+            textBox26.Location = new Point(33, 1343);
+            textBox26.Name = "textBox26";
+            textBox26.Size = new Size(940, 27);
+            textBox26.TabIndex = 46;
+            // 
             // HSTD_BDK
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             AutoScroll = true;
             ClientSize = new Size(1008, 1039);
+            Controls.Add(textBox26);
+            Controls.Add(textBox21);
+            Controls.Add(textBox25);
+            Controls.Add(textBox20);
+            Controls.Add(textBox24);
             Controls.Add(textBox18);
+            Controls.Add(label33);
+            Controls.Add(label27);
+            Controls.Add(label32);
+            Controls.Add(label26);
+            Controls.Add(label31);
             Controls.Add(label24);
+            Controls.Add(label30);
+            Controls.Add(label25);
+            Controls.Add(label29);
             Controls.Add(label23);
+            Controls.Add(textBox23);
+            Controls.Add(textBox19);
+            Controls.Add(label28);
+            Controls.Add(textBox22);
             Controls.Add(label22);
             Controls.Add(textBox17);
             Controls.Add(textBox12);
@@ -519,5 +682,22 @@
         private TextBox textBox17;
         private Label label24;
         private TextBox textBox18;
+        private TextBox textBox19;
+        private Label label25;
+        private Label label26;
+        private TextBox textBox20;
+        private Label label27;
+        private TextBox textBox21;
+        private TextBox textBox22;
+        private Label label28;
+        private TextBox textBox23;
+        private Label label29;
+        private Label label30;
+        private Label label31;
+        private Label label32;
+        private Label label33;
+        private TextBox textBox24;
+        private TextBox textBox25;
+        private TextBox textBox26;
     }
 }
