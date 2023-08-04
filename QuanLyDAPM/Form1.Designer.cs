@@ -49,7 +49,8 @@
             menuStrip1.Items.AddRange(new ToolStripItem[] { hồSơThẩmĐịnhToolStripMenuItem, quảnLýHồSơToolStripMenuItem, giảiQuyếtKhiếuNạiToolStripMenuItem });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
-            menuStrip1.Size = new Size(800, 28);
+            menuStrip1.Padding = new Padding(10, 3, 0, 3);
+            menuStrip1.Size = new Size(1300, 44);
             menuStrip1.TabIndex = 0;
             menuStrip1.Text = "menuStrip1";
             menuStrip1.ItemClicked += menuStrip1_ItemClicked;
@@ -58,20 +59,20 @@
             // 
             hồSơThẩmĐịnhToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { bảnĐăngKýTCMTToolStripMenuItem, banToolStripMenuItem });
             hồSơThẩmĐịnhToolStripMenuItem.Name = "hồSơThẩmĐịnhToolStripMenuItem";
-            hồSơThẩmĐịnhToolStripMenuItem.Size = new Size(133, 24);
+            hồSơThẩmĐịnhToolStripMenuItem.Size = new Size(213, 38);
             hồSơThẩmĐịnhToolStripMenuItem.Text = "Hồ sơ thẩm định";
             // 
             // bảnĐăngKýTCMTToolStripMenuItem
             // 
             bảnĐăngKýTCMTToolStripMenuItem.Name = "bảnĐăngKýTCMTToolStripMenuItem";
-            bảnĐăngKýTCMTToolStripMenuItem.Size = new Size(214, 26);
+            bảnĐăngKýTCMTToolStripMenuItem.Size = new Size(348, 44);
             bảnĐăngKýTCMTToolStripMenuItem.Text = "Bản đăng ký TCMT";
             bảnĐăngKýTCMTToolStripMenuItem.Click += bảnĐăngKýTCMTToolStripMenuItem_Click;
             // 
             // banToolStripMenuItem
             // 
             banToolStripMenuItem.Name = "banToolStripMenuItem";
-            banToolStripMenuItem.Size = new Size(214, 26);
+            banToolStripMenuItem.Size = new Size(348, 44);
             banToolStripMenuItem.Text = "Cam kết BVMT";
             banToolStripMenuItem.Click += banToolStripMenuItem_Click;
             // 
@@ -79,61 +80,64 @@
             // 
             quảnLýHồSơToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { bảnĐăngKýTCMTToolStripMenuItem1, camKếtBVMTToolStripMenuItem });
             quảnLýHồSơToolStripMenuItem.Name = "quảnLýHồSơToolStripMenuItem";
-            quảnLýHồSơToolStripMenuItem.Size = new Size(113, 24);
+            quảnLýHồSơToolStripMenuItem.Size = new Size(183, 38);
             quảnLýHồSơToolStripMenuItem.Text = "Quản lý hồ sơ";
             // 
             // bảnĐăngKýTCMTToolStripMenuItem1
             // 
             bảnĐăngKýTCMTToolStripMenuItem1.Name = "bảnĐăngKýTCMTToolStripMenuItem1";
-            bảnĐăngKýTCMTToolStripMenuItem1.Size = new Size(214, 26);
+            bảnĐăngKýTCMTToolStripMenuItem1.Size = new Size(348, 44);
             bảnĐăngKýTCMTToolStripMenuItem1.Text = "Bản đăng ký TCMT";
             // 
             // camKếtBVMTToolStripMenuItem
             // 
             camKếtBVMTToolStripMenuItem.Name = "camKếtBVMTToolStripMenuItem";
-            camKếtBVMTToolStripMenuItem.Size = new Size(214, 26);
+            camKếtBVMTToolStripMenuItem.Size = new Size(348, 44);
             camKếtBVMTToolStripMenuItem.Text = "Cam kết BVMT";
             // 
             // giảiQuyếtKhiếuNạiToolStripMenuItem
             // 
             giảiQuyếtKhiếuNạiToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { phiếuChuyểnĐơnToolStripMenuItem, biênBảnKiểmTraToolStripMenuItem, báoCáoToolStripMenuItem, vănBảnTrảLờiToolStripMenuItem });
             giảiQuyếtKhiếuNạiToolStripMenuItem.Name = "giảiQuyếtKhiếuNạiToolStripMenuItem";
-            giảiQuyếtKhiếuNạiToolStripMenuItem.Size = new Size(153, 24);
+            giảiQuyếtKhiếuNạiToolStripMenuItem.Size = new Size(247, 38);
             giảiQuyếtKhiếuNạiToolStripMenuItem.Text = "Giải quyết khiếu nại";
             // 
             // phiếuChuyểnĐơnToolStripMenuItem
             // 
             phiếuChuyểnĐơnToolStripMenuItem.Name = "phiếuChuyểnĐơnToolStripMenuItem";
-            phiếuChuyểnĐơnToolStripMenuItem.Size = new Size(208, 26);
+            phiếuChuyểnĐơnToolStripMenuItem.Size = new Size(359, 44);
             phiếuChuyểnĐơnToolStripMenuItem.Text = "Phiếu chuyển đơn";
             phiếuChuyểnĐơnToolStripMenuItem.Click += phiếuChuyểnĐơnToolStripMenuItem_Click;
             // 
             // biênBảnKiểmTraToolStripMenuItem
             // 
             biênBảnKiểmTraToolStripMenuItem.Name = "biênBảnKiểmTraToolStripMenuItem";
-            biênBảnKiểmTraToolStripMenuItem.Size = new Size(208, 26);
+            biênBảnKiểmTraToolStripMenuItem.Size = new Size(359, 44);
             biênBảnKiểmTraToolStripMenuItem.Text = "Biên bản kiểm tra";
             biênBảnKiểmTraToolStripMenuItem.Click += biênBảnKiểmTraToolStripMenuItem_Click;
             // 
             // báoCáoToolStripMenuItem
             // 
             báoCáoToolStripMenuItem.Name = "báoCáoToolStripMenuItem";
-            báoCáoToolStripMenuItem.Size = new Size(208, 26);
+            báoCáoToolStripMenuItem.Size = new Size(359, 44);
             báoCáoToolStripMenuItem.Text = "Báo cáo";
+            báoCáoToolStripMenuItem.Click += báoCáoToolStripMenuItem_Click;
             // 
             // vănBảnTrảLờiToolStripMenuItem
             // 
             vănBảnTrảLờiToolStripMenuItem.Name = "vănBảnTrảLờiToolStripMenuItem";
-            vănBảnTrảLờiToolStripMenuItem.Size = new Size(208, 26);
+            vănBảnTrảLờiToolStripMenuItem.Size = new Size(359, 44);
             vănBảnTrảLờiToolStripMenuItem.Text = "Văn bản trả lời";
+            vănBảnTrảLờiToolStripMenuItem.Click += vănBảnTrảLờiToolStripMenuItem_Click;
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(13F, 32F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 449);
+            ClientSize = new Size(1300, 718);
             Controls.Add(menuStrip1);
             MainMenuStrip = menuStrip1;
+            Margin = new Padding(5);
             Name = "Form1";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Quản lý dự án phần mềm";

@@ -35,5 +35,17 @@
             var temp = new GQKN_BBKT();
             temp.Show();
         }
+
+        private void báoCáoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var temp = new GQKN_BC();
+            temp.Show();
+        }
+
+        private void vănBảnTrảLờiToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var temp = new GQKN_VBTL();
+            temp.Show();
+        }
     }
 }
