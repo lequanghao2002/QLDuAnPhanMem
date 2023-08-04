@@ -65,7 +65,7 @@
             textBox19 = new TextBox();
             label16 = new Label();
             pictureBox1 = new PictureBox();
-            textBox21 = new TextBox();
+            textBox20 = new TextBox();
             label26 = new Label();
             label25 = new Label();
             label24 = new Label();
@@ -411,13 +411,13 @@
             pictureBox1.TabIndex = 88;
             pictureBox1.TabStop = false;
             // 
-            // textBox21
+            // textBox20
             // 
-            textBox21.Location = new Point(1180, 996);
-            textBox21.Margin = new Padding(5);
-            textBox21.Name = "textBox21";
-            textBox21.Size = new Size(261, 39);
-            textBox21.TabIndex = 87;
+            textBox20.Location = new Point(1180, 996);
+            textBox20.Margin = new Padding(5);
+            textBox20.Name = "textBox20";
+            textBox20.Size = new Size(261, 39);
+            textBox20.TabIndex = 87;
             // 
             // label26
             // 
@@ -465,7 +465,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1746, 1334);
             Controls.Add(pictureBox1);
-            Controls.Add(textBox21);
+            Controls.Add(textBox20);
             Controls.Add(label26);
             Controls.Add(label25);
             Controls.Add(label24);
@@ -552,7 +552,7 @@
         private TextBox textBox19;
         private Label label16;
         private PictureBox pictureBox1;
-        private TextBox textBox21;
+        private TextBox textBox20;
         private Label label26;
         private Label label25;
         private Label label24;
