@@ -47,5 +47,20 @@
             var temp = new GQKN_VBTL();
             temp.Show();
         }
+
+        private void thẻHồSơMôiTrườngToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void hồSơThẩmĐịnhToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void đềÁnBVMTToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
