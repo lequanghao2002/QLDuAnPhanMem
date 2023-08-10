@@ -117,7 +117,10 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="label18.Text" xml:space="preserve">
-    <value>Căn cứ quy định của Luật Tố cáo, Nghị định số 31/2019/NĐ-CP ngày 10/4/2019 của Chính phủ Quy định chi tiết một số điều và biện pháp tổ chức thi hành Luật Tố cáo, Thông tư số 05/2021/TT-TTCP ngày 01 tháng 10 năm 2021 của Thanh tra Chính phủ quy định quy trình xử lý đơn khiếu nại, đơn tố cáo, đơn kiến nghị, phản ánh</value>
+  <data name="label26.Text" xml:space="preserve">
+    <value>1. Tính xác thực về tư cách pháp nhân của tổ chức /cá nhân xin đăng ký.
+2. Vị trí công trình, lưu lượng khai thác và mục đích sử dụng nước.
+3. Quy định trường hợp không còn sử dụng công trình khai thác nước dưới đất thì thông báo và trả Tờ khai thông qua Tổ trưởng tổ dân phố (hoặc trưởng thôn, ấp, phum, bản, sóc) để báo cho cơ quan quản lý hoặc thông báo trực tiếp và trả tờ khai cho cơ quan quản lý; thực hiện việc trám, lấp giếng theo quy định khi không còn sử dụng công trình khai thác nước dưới đất; thông báo ngay cho cơ quan quản lý khi có sự cố nghiêm trọng xảy ra trong quá trình khai thác nước dưới đất tại công trình đăng ký.
+</value>
   </data>
 </root>
