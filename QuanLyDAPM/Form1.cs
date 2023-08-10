@@ -85,5 +85,11 @@
             var temp = new DeAnBVMT();
             temp.Show();
         }
+
+        private void chứcNăngThốngKêToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            var temp = new ThongKe();
+            temp.Show();
+        }
     }
 }
