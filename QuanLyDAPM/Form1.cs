@@ -97,5 +97,11 @@
             var temp = new Xuat();
             temp.Show();
         }
+
+        private void bảnĐăngKýTCMTToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            var temp = new TheQTMT_Nhap();
+            temp.Show();
+        }
     }
 }
