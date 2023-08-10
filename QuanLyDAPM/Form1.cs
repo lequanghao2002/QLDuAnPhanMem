@@ -62,5 +62,16 @@
         {
 
         }
+
+        private void xảThảiNướcThảiVàoNguồnNướcToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void khaiThácNướcDướiĐấtToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var temp = new KTNDD();
+            temp.Show();
+        }
     }
 }
