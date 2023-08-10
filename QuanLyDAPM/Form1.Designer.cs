@@ -174,19 +174,20 @@
             // 
             camKếtBVMTToolStripMenuItem1.Name = "camKếtBVMTToolStripMenuItem1";
             camKếtBVMTToolStripMenuItem1.Size = new Size(278, 26);
-            camKếtBVMTToolStripMenuItem1.Text = "3.1.2. Cam kết BVMT ";
+            camKếtBVMTToolStripMenuItem1.Text = "3.1.2 Cam kết BVMT ";
             // 
             // kếHoạchBVMTToolStripMenuItem
             // 
             kếHoạchBVMTToolStripMenuItem.Name = "kếHoạchBVMTToolStripMenuItem";
             kếHoạchBVMTToolStripMenuItem.Size = new Size(278, 26);
             kếHoạchBVMTToolStripMenuItem.Text = "3.1.3 Kế hoạch BVMT";
+            kếHoạchBVMTToolStripMenuItem.Click += kếHoạchBVMTToolStripMenuItem_Click;
             // 
             // đềÁnBVMTToolStripMenuItem
             // 
             đềÁnBVMTToolStripMenuItem.Name = "đềÁnBVMTToolStripMenuItem";
             đềÁnBVMTToolStripMenuItem.Size = new Size(278, 26);
-            đềÁnBVMTToolStripMenuItem.Text = "3.1.4. Đề án BVMT";
+            đềÁnBVMTToolStripMenuItem.Text = "3.1.4 Đề án BVMT";
             // 
             // đềÁnBVMTToolStripMenuItem1
             // 
@@ -199,14 +200,14 @@
             // kếHoạchBVMTToolStripMenuItem1
             // 
             kếHoạchBVMTToolStripMenuItem1.Name = "kếHoạchBVMTToolStripMenuItem1";
-            kếHoạchBVMTToolStripMenuItem1.Size = new Size(233, 26);
-            kếHoạchBVMTToolStripMenuItem1.Text = "3.2.1. Kế hoạch BVMT";
+            kếHoạchBVMTToolStripMenuItem1.Size = new Size(230, 26);
+            kếHoạchBVMTToolStripMenuItem1.Text = "3.2.1 Kế hoạch BVMT";
             // 
             // đềÁnBVMTToolStripMenuItem2
             // 
             đềÁnBVMTToolStripMenuItem2.Name = "đềÁnBVMTToolStripMenuItem2";
-            đềÁnBVMTToolStripMenuItem2.Size = new Size(233, 26);
-            đềÁnBVMTToolStripMenuItem2.Text = "3.2.2. Đề án BVMT";
+            đềÁnBVMTToolStripMenuItem2.Size = new Size(230, 26);
+            đềÁnBVMTToolStripMenuItem2.Text = "3.2.2 Đề án BVMT";
             // 
             // quảnLýHồSơToolStripMenuItem1
             // 
@@ -218,26 +219,26 @@
             // bảnĐăngKýĐạtTCMTToolStripMenuItem1
             // 
             bảnĐăngKýĐạtTCMTToolStripMenuItem1.Name = "bảnĐăngKýĐạtTCMTToolStripMenuItem1";
-            bảnĐăngKýĐạtTCMTToolStripMenuItem1.Size = new Size(277, 26);
-            bảnĐăngKýĐạtTCMTToolStripMenuItem1.Text = "3.3.1.\tBản đăng ký đạt TCMT ";
+            bảnĐăngKýĐạtTCMTToolStripMenuItem1.Size = new Size(278, 26);
+            bảnĐăngKýĐạtTCMTToolStripMenuItem1.Text = "3.3.1 Bản đăng ký đạt TCMT ";
             // 
             // camKếtBVMTToolStripMenuItem2
             // 
             camKếtBVMTToolStripMenuItem2.Name = "camKếtBVMTToolStripMenuItem2";
-            camKếtBVMTToolStripMenuItem2.Size = new Size(277, 26);
-            camKếtBVMTToolStripMenuItem2.Text = "3.3.2. Cam kết BVMT ";
+            camKếtBVMTToolStripMenuItem2.Size = new Size(278, 26);
+            camKếtBVMTToolStripMenuItem2.Text = "3.3.2 Cam kết BVMT ";
             // 
             // kếHoạchBVMTToolStripMenuItem2
             // 
             kếHoạchBVMTToolStripMenuItem2.Name = "kếHoạchBVMTToolStripMenuItem2";
-            kếHoạchBVMTToolStripMenuItem2.Size = new Size(277, 26);
-            kếHoạchBVMTToolStripMenuItem2.Text = "3.3.3. Kế hoạch BVMT";
+            kếHoạchBVMTToolStripMenuItem2.Size = new Size(278, 26);
+            kếHoạchBVMTToolStripMenuItem2.Text = "3.3.3 Kế hoạch BVMT";
             // 
             // đềÁnBVMTToolStripMenuItem3
             // 
             đềÁnBVMTToolStripMenuItem3.Name = "đềÁnBVMTToolStripMenuItem3";
-            đềÁnBVMTToolStripMenuItem3.Size = new Size(277, 26);
-            đềÁnBVMTToolStripMenuItem3.Text = "3.3.4. Đề án BVMT";
+            đềÁnBVMTToolStripMenuItem3.Size = new Size(278, 26);
+            đềÁnBVMTToolStripMenuItem3.Text = "3.3.4 Đề án BVMT";
             // 
             // bCấpTỉnhToolStripMenuItem
             // 

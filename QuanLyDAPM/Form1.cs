@@ -65,13 +65,19 @@
 
         private void xảThảiNướcThảiVàoNguồnNướcToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            var temp = new XNTVNN();
+            temp.Show();
         }
 
         private void khaiThácNướcDướiĐấtToolStripMenuItem_Click(object sender, EventArgs e)
         {
             var temp = new KTNDD();
             temp.Show();
+        }
+
+        private void kếHoạchBVMTToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
