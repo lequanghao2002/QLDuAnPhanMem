@@ -91,5 +91,11 @@
             var temp = new ThongKe();
             temp.Show();
         }
+
+        private void chứcNăngXuấtToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var temp = new Xuat();
+            temp.Show();
+        }
     }
 }
