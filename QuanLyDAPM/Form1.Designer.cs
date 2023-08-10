@@ -36,6 +36,8 @@
             chứcNăngXuấtToolStripMenuItem = new ToolStripMenuItem();
             chứcNăngThoátToolStripMenuItem = new ToolStripMenuItem();
             thẻBiênNhậnVàThốngKêToolStripMenuItem = new ToolStripMenuItem();
+            biênNhậnToolStripMenuItem = new ToolStripMenuItem();
+            chứcNăngThốngKêToolStripMenuItem1 = new ToolStripMenuItem();
             thẻHồSơMôiTrườngToolStripMenuItem = new ToolStripMenuItem();
             toolStripMenuItem2 = new ToolStripMenuItem();
             hồSơThẩmĐịnhToolStripMenuItem1 = new ToolStripMenuItem();
@@ -70,8 +72,6 @@
             bảnĐăngKýTCMTToolStripMenuItem = new ToolStripMenuItem();
             banToolStripMenuItem = new ToolStripMenuItem();
             thẻHồSơMôiTrườngToolStripMenuItem1 = new ToolStripMenuItem();
-            biênNhậnToolStripMenuItem = new ToolStripMenuItem();
-            chứcNăngThốngKêToolStripMenuItem1 = new ToolStripMenuItem();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
@@ -130,6 +130,18 @@
             thẻBiênNhậnVàThốngKêToolStripMenuItem.Size = new Size(212, 24);
             thẻBiênNhậnVàThốngKêToolStripMenuItem.Text = "2. Thẻ biên nhận và thống kê";
             // 
+            // biênNhậnToolStripMenuItem
+            // 
+            biênNhậnToolStripMenuItem.Name = "biênNhậnToolStripMenuItem";
+            biênNhậnToolStripMenuItem.Size = new Size(253, 26);
+            biênNhậnToolStripMenuItem.Text = "2.1. Biên nhận";
+            // 
+            // chứcNăngThốngKêToolStripMenuItem1
+            // 
+            chứcNăngThốngKêToolStripMenuItem1.Name = "chứcNăngThốngKêToolStripMenuItem1";
+            chứcNăngThốngKêToolStripMenuItem1.Size = new Size(253, 26);
+            chứcNăngThốngKêToolStripMenuItem1.Text = "2.2. Chức năng Thống kê";
+            // 
             // thẻHồSơMôiTrườngToolStripMenuItem
             // 
             thẻHồSơMôiTrườngToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { toolStripMenuItem2, bCấpTỉnhToolStripMenuItem });
@@ -142,7 +154,7 @@
             // 
             toolStripMenuItem2.DropDownItems.AddRange(new ToolStripItem[] { hồSơThẩmĐịnhToolStripMenuItem1, đềÁnBVMTToolStripMenuItem1, quảnLýHồSơToolStripMenuItem1 });
             toolStripMenuItem2.Name = "toolStripMenuItem2";
-            toolStripMenuItem2.Size = new Size(181, 26);
+            toolStripMenuItem2.Size = new Size(224, 26);
             toolStripMenuItem2.Text = "A. Cấp Huyện";
             // 
             // hồSơThẩmĐịnhToolStripMenuItem1
@@ -175,6 +187,7 @@
             đềÁnBVMTToolStripMenuItem.Name = "đềÁnBVMTToolStripMenuItem";
             đềÁnBVMTToolStripMenuItem.Size = new Size(278, 26);
             đềÁnBVMTToolStripMenuItem.Text = "3.1.4. Đề án BVMT";
+            đềÁnBVMTToolStripMenuItem.Click += đềÁnBVMTToolStripMenuItem_Click;
             // 
             // đềÁnBVMTToolStripMenuItem1
             // 
@@ -231,7 +244,7 @@
             // 
             bCấpTỉnhToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { đánhGiáTácĐộngMôiTrườngĐTMToolStripMenuItem, khaiThácNướcDướiĐấtToolStripMenuItem, xảThảiNướcThảiVàoNguồnNướcToolStripMenuItem });
             bCấpTỉnhToolStripMenuItem.Name = "bCấpTỉnhToolStripMenuItem";
-            bCấpTỉnhToolStripMenuItem.Size = new Size(181, 26);
+            bCấpTỉnhToolStripMenuItem.Size = new Size(224, 26);
             bCấpTỉnhToolStripMenuItem.Text = "B. Cấp Tỉnh";
             // 
             // đánhGiáTácĐộngMôiTrườngĐTMToolStripMenuItem
@@ -351,18 +364,6 @@
             thẻHồSơMôiTrườngToolStripMenuItem1.Name = "thẻHồSơMôiTrườngToolStripMenuItem1";
             thẻHồSơMôiTrườngToolStripMenuItem1.Size = new Size(324, 26);
             thẻHồSơMôiTrườngToolStripMenuItem1.Text = "6.4. Chức năng Đổi giao diện";
-            // 
-            // biênNhậnToolStripMenuItem
-            // 
-            biênNhậnToolStripMenuItem.Name = "biênNhậnToolStripMenuItem";
-            biênNhậnToolStripMenuItem.Size = new Size(253, 26);
-            biênNhậnToolStripMenuItem.Text = "2.1. Biên nhận";
-            // 
-            // chứcNăngThốngKêToolStripMenuItem1
-            // 
-            chứcNăngThốngKêToolStripMenuItem1.Name = "chứcNăngThốngKêToolStripMenuItem1";
-            chứcNăngThốngKêToolStripMenuItem1.Size = new Size(253, 26);
-            chứcNăngThốngKêToolStripMenuItem1.Text = "2.2. Chức năng Thống kê";
             // 
             // Form1
             // 

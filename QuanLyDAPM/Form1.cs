@@ -62,5 +62,11 @@
         {
 
         }
+
+        private void đềÁnBVMTToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var temp = new DeAnBVMT();
+            temp.Show();
+        }
     }
 }
