@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--
+    Microsoft ResX Schema 
+
+    Version 2.0
+
+    The primary goals of this format is to allow a simple XML format
+    that is mostly human readable. The generation and parsing of the
+    various data types are done through the TypeConverter classes
+    associated with the data types.
+
+    Example:
+
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing"">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+
+    There are any number of "resheader" rows that contain simple
+    name/value pairs.
+
+    Each data row contains a name, and value. The row also contains a
+    type or mimetype. Type corresponds to a .NET class that support
+    text/value conversion through the TypeConverter architecture.
+    Classes that don't support this are serialized and stored with the
+    mimetype set.
+
+    The mimetype is used for serialized objects, and tells the
+    ResXResourceReader how to depersist the object. This is currently not
+    extensible. For a given mimetype the value must be set accordingly:
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format
+    that the ResXResourceWriter will generate, however the reader can
+    read any of the formats listed below.
+
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="label5.Text" xml:space="preserve">
+    <value>    Căn cứ Nghị định số 21/2013/NĐ-CP ngày 04 tháng 3 năm 2013 của Chính phủ quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Bộ Tài nguyên và Môi trường (trường hợp cơ quan cấp phép là Bộ Tài nguyên và Môi trường)/Luật Tổ chức hội đồng nhân dân, uỷ ban nhân dân ngày 26 tháng 11 năm 2003 (trường hợp cơ quan cấp phép là UBND cấp tỉnh);</value>
+  </data>
+  <data name="label24.Text" xml:space="preserve">
+    <value>    Xét đề nghị của Cục trưởng Cục Quản lý tài nguyên nước (trường hợp cơ quan cấp phép là Bộ Tài nguyên và Môi trường)/Giám đốc Sở Tài nguyên và Môi trường (trường hợp cơ quan cấp phép là UBND cấp tỉnh),</value>
+  </data>
+  <data name="label26.Text" xml:space="preserve">
+    <value>    Điều 1: Cho phép (tên tổ chức/cá nhân), địa chỉ tại (đối với tổ chức ghi địa chỉ trụ sở chính theo Giấy đăng ký kinh doanh hoặc Quyết định thành lập; đối với cá nhân ghi theo địa chỉ hộ khẩu thường trú) được xả nước thải vào nguồn nước với các nội dung chủ yếu sau:</value>
+  </data>
+  <data name="label48.Text" xml:space="preserve">
+    <value>    3. Hằng năm (trước 15 tháng 12), tổng hợp báo cáo gửi (tên cơ quan cấp phép) về tình hình thu gom, xử lý nước thải, xả nước thải và các vấn đề phát sinh trong quá trình xử lý nước thải; các kết quả quan trắc lưu lượng, chất lượng nước thải và nước nguồn tiếp nhận theo quy định tại Khoản 2 Điều này.</value>
+  </data>
+  <data name="label52.Text" xml:space="preserve">
+    <value>    Điều 4. Giấy phép này có hiệu lực kể từ ngày ký. Chậm nhất chín mươi (90) ngày trước khi giấy phép hết hạn, nếu (tên tổ chức/cá nhân được cấp giấy phép) còn tiếp tục xả nước thải với các nội dung quy định tại Điều 1 của Giấy phép này thì phải làm thủ tục gia hạn giấy phép theo quy định.</value>
+  </data>
+  <data name="label41.Text" xml:space="preserve">
+    <value>(1) Ghi rõ tên, vị trí hành chính (thôn, ấp/tổ, khu phố; xã/phường, thị trấn; huyện/quận, thị xã, thành phố; tỉnh/thành phố) của sông, suối, kênh, rạch, vùng biển, hồ, đầm, ao nơi nước thải xả vào.
+(2) Ghi rõ hệ thống dẫn nước thải sau xử lý đến vị trí xả vào nguồn nước và phương thức xả tại vị trí xả nước thải vào nguồn nước là bơm, tự chảy, xả ngầm, xả mặt, xả ven bờ, xả giữa dòng…
+(3) Ghi rõ xả nước thải là liên tục (24h/ngày đêm) hay gián đoạn; chu kỳ xả, thời gian xả trong một chu kỳ; xả theo mùa vụ sản xuất hay theo các thời điểm trong ngày. 
+(4) Ghi rõ Quy chuẩn Việt Nam về chất lượng nước thải phải đạt, hệ số áp dụng; giới hạn các thông số và nồng độ chất ô nhiễm chính có trong nước thải trước khi xả vào nguồn nước tiếp nhận.
+(5) Ghi rõ nội dung quan trắc bao gồm: vị trí, lưu lượng nước thải, thông số quan trắc chất lượng nước thải và chất lượng nước nguồn tiếp nhận; tần suất quan trắc. Trong trường hợp yêu cầu quan trắc nước thải tự động thì ghi rõ vị trí, tọa độ đặt thiết bị quan trắc và thông số quan trắc.
+</value>
+  </data>
+</root>
