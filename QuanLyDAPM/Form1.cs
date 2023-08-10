@@ -20,7 +20,7 @@
 
         private void banToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            var temp = new HSTD_CKcs();
+            var temp = new DoiMK();
             temp.Show();
         }
 

@@ -28,18 +28,67 @@
         /// </summary>
         private void InitializeComponent()
         {
+            button1 = new Button();
+            button2 = new Button();
+            button3 = new Button();
+            button4 = new Button();
             SuspendLayout();
+            // 
+            // button1
+            // 
+            button1.Location = new Point(294, 161);
+            button1.Name = "button1";
+            button1.Size = new Size(122, 49);
+            button1.TabIndex = 0;
+            button1.Text = "Xuất file *.docx";
+            button1.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            button2.Location = new Point(294, 270);
+            button2.Name = "button2";
+            button2.Size = new Size(122, 49);
+            button2.TabIndex = 0;
+            button2.Text = "Xuất file *.xlsx";
+            button2.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            button3.Location = new Point(294, 381);
+            button3.Name = "button3";
+            button3.Size = new Size(122, 49);
+            button3.TabIndex = 0;
+            button3.Text = "Xuất file *.pdf";
+            button3.UseVisualStyleBackColor = true;
+            // 
+            // button4
+            // 
+            button4.Location = new Point(203, 33);
+            button4.Name = "button4";
+            button4.Size = new Size(298, 38);
+            button4.TabIndex = 1;
+            button4.Text = "Chọn file cần xuất";
+            button4.UseVisualStyleBackColor = true;
             // 
             // Xuat
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(729, 474);
+            Controls.Add(button4);
+            Controls.Add(button3);
+            Controls.Add(button2);
+            Controls.Add(button1);
             Name = "Xuat";
             Text = "CHỨC NĂNG XUẤT";
             ResumeLayout(false);
         }
 
         #endregion
+
+        private Button button1;
+        private Button button2;
+        private Button button3;
+        private Button button4;
     }
 }
