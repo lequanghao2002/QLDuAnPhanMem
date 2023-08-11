@@ -75,10 +75,6 @@
             temp.Show();
         }
 
-        private void kếHoạchBVMTToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-
-        }
 
         private void đềÁnBVMTToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -113,7 +109,18 @@
         private void biênNhậnToolStripMenuItem_Click(object sender, EventArgs e)
         {
             var temp = new GBN();
+              temp.Show();
+        }
+        
+        private void bảnĐăngKýĐạtTCMTToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var temp = new HSTD_BDK();
             temp.Show();
+        }
+
+        private void camKếtBVMTToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            var temp = new HSTD_CKcs();
         }
     }
 }
