@@ -137,6 +137,7 @@
             biênNhậnToolStripMenuItem.Name = "biênNhậnToolStripMenuItem";
             biênNhậnToolStripMenuItem.Size = new Size(413, 44);
             biênNhậnToolStripMenuItem.Text = "2.1. Biên nhận";
+            biênNhậnToolStripMenuItem.Click += biênNhậnToolStripMenuItem_Click;
             // 
             // chứcNăngThốngKêToolStripMenuItem1
             // 
@@ -157,7 +158,7 @@
             // 
             toolStripMenuItem2.DropDownItems.AddRange(new ToolStripItem[] { hồSơThẩmĐịnhToolStripMenuItem1, đềÁnBVMTToolStripMenuItem1, quảnLýHồSơToolStripMenuItem1 });
             toolStripMenuItem2.Name = "toolStripMenuItem2";
-            toolStripMenuItem2.Size = new Size(359, 44);
+            toolStripMenuItem2.Size = new Size(292, 44);
             toolStripMenuItem2.Text = "A. Cấp Huyện";
             // 
             // hồSơThẩmĐịnhToolStripMenuItem1
@@ -248,7 +249,7 @@
             // 
             bCấpTỉnhToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { đánhGiáTácĐộngMôiTrườngĐTMToolStripMenuItem, khaiThácNướcDướiĐấtToolStripMenuItem, xảThảiNướcThảiVàoNguồnNướcToolStripMenuItem });
             bCấpTỉnhToolStripMenuItem.Name = "bCấpTỉnhToolStripMenuItem";
-            bCấpTỉnhToolStripMenuItem.Size = new Size(359, 44);
+            bCấpTỉnhToolStripMenuItem.Size = new Size(292, 44);
             bCấpTỉnhToolStripMenuItem.Text = "B. Cấp Tỉnh";
             // 
             // đánhGiáTácĐộngMôiTrườngĐTMToolStripMenuItem
@@ -380,7 +381,7 @@
             ClientSize = new Size(1773, 718);
             Controls.Add(menuStrip1);
             MainMenuStrip = menuStrip1;
-            Margin = new Padding(5, 5, 5, 5);
+            Margin = new Padding(5);
             Name = "Form1";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Quản lý dự án phần mềm";

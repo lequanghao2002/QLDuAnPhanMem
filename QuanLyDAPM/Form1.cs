@@ -109,5 +109,11 @@
             var temp = new ĐTM();
             temp.Show();
         }
+
+        private void biênNhậnToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var temp = new GBN();
+            temp.Show();
+        }
     }
 }
