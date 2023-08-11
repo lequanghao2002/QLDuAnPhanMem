@@ -137,6 +137,7 @@
             biênNhậnToolStripMenuItem.Name = "biênNhậnToolStripMenuItem";
             biênNhậnToolStripMenuItem.Size = new Size(253, 26);
             biênNhậnToolStripMenuItem.Text = "2.1. Biên nhận";
+            biênNhậnToolStripMenuItem.Click += biênNhậnToolStripMenuItem_Click;
             // 
             // chứcNăngThốngKêToolStripMenuItem1
             // 
@@ -157,7 +158,6 @@
             // 
             toolStripMenuItem2.DropDownItems.AddRange(new ToolStripItem[] { hồSơThẩmĐịnhToolStripMenuItem1, đềÁnBVMTToolStripMenuItem1, quảnLýHồSơToolStripMenuItem1 });
             toolStripMenuItem2.Name = "toolStripMenuItem2";
-            toolStripMenuItem2.Size = new Size(253, 26);
             toolStripMenuItem2.Text = "A. Cấp Huyện";
             // 
             // hồSơThẩmĐịnhToolStripMenuItem1
@@ -249,7 +249,6 @@
             // 
             bCấpTỉnhToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { đánhGiáTácĐộngMôiTrườngĐTMToolStripMenuItem, khaiThácNướcDướiĐấtToolStripMenuItem, xảThảiNướcThảiVàoNguồnNướcToolStripMenuItem });
             bCấpTỉnhToolStripMenuItem.Name = "bCấpTỉnhToolStripMenuItem";
-            bCấpTỉnhToolStripMenuItem.Size = new Size(253, 26);
             bCấpTỉnhToolStripMenuItem.Text = "B. Cấp Tỉnh";
             // 
             // đánhGiáTácĐộngMôiTrườngĐTMToolStripMenuItem

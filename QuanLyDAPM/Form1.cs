@@ -106,6 +106,12 @@
             temp.Show();
         }
 
+        private void biênNhậnToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var temp = new GBN();
+              temp.Show();
+        }
+        
         private void bảnĐăngKýĐạtTCMTToolStripMenuItem_Click(object sender, EventArgs e)
         {
             var temp = new HSTD_BDK();
@@ -115,7 +121,6 @@
         private void camKếtBVMTToolStripMenuItem1_Click(object sender, EventArgs e)
         {
             var temp = new HSTD_CKcs();
-            temp.Show();
         }
     }
 }
