@@ -103,5 +103,11 @@
             var temp = new TheQTMT_Nhap();
             temp.Show();
         }
+
+        private void đánhGiáTácĐộngMôiTrườngĐTMToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var temp = new ĐTM();
+            temp.Show();
+        }
     }
 }
