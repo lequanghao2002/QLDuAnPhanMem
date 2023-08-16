@@ -349,6 +349,7 @@
             quảnLýTàiNguyênRừngToolStripMenuItem.Name = "quảnLýTàiNguyênRừngToolStripMenuItem";
             quảnLýTàiNguyênRừngToolStripMenuItem.Size = new Size(560, 44);
             quảnLýTàiNguyênRừngToolStripMenuItem.Text = "5.6. Quản lý tài nguyên rừng: ";
+            quảnLýTàiNguyênRừngToolStripMenuItem.Click += quảnLýTàiNguyênRừngToolStripMenuItem_Click;
             // 
             // quyChuẩnTiêuChuẩnHiệnHànhToolStripMenuItem
             // 

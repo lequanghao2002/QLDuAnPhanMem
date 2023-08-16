@@ -26,7 +26,7 @@
 
         private void phiếuChuyểnĐơnToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            var temp = new GQKN_PCD();
+            var temp = new QuanLyMoiTruong();
             temp.Show();
         }
 
@@ -121,7 +121,9 @@
         private void camKếtBVMTToolStripMenuItem1_Click(object sender, EventArgs e)
         {
             var temp = new HSTD_CKcs();
+            temp.Show();
         }
+
 
         private void đềÁnBVMTToolStripMenuItem2_Click(object sender, EventArgs e)
         {
@@ -132,6 +134,12 @@
         private void đềÁnBVMTToolStripMenuItem3_Click(object sender, EventArgs e)
         {
             var temp = new HSQL_ĐABVMT();
+             temp.Show();
+        }
+
+        private void quảnLýTàiNguyênRừngToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var temp = new QuanLyTaiNguyenRung();
             temp.Show();
         }
     }
