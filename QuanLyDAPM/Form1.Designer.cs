@@ -57,6 +57,7 @@
             đánhGiáTácĐộngMôiTrườngĐTMToolStripMenuItem = new ToolStripMenuItem();
             khaiThácNướcDướiĐấtToolStripMenuItem = new ToolStripMenuItem();
             xảThảiNướcThảiVàoNguồnNướcToolStripMenuItem = new ToolStripMenuItem();
+            thẻHồSơMôiTrườngToolStripMenuItem2 = new ToolStripMenuItem();
             quảnLýHồSơToolStripMenuItem = new ToolStripMenuItem();
             bảnĐăngKýTCMTToolStripMenuItem1 = new ToolStripMenuItem();
             camKếtBVMTToolStripMenuItem = new ToolStripMenuItem();
@@ -72,7 +73,6 @@
             bảnĐăngKýTCMTToolStripMenuItem = new ToolStripMenuItem();
             banToolStripMenuItem = new ToolStripMenuItem();
             thẻHồSơMôiTrườngToolStripMenuItem1 = new ToolStripMenuItem();
-            thẻHồSơMôiTrườngToolStripMenuItem2 = new ToolStripMenuItem();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
@@ -158,6 +158,7 @@
             // 
             toolStripMenuItem2.DropDownItems.AddRange(new ToolStripItem[] { hồSơThẩmĐịnhToolStripMenuItem1, đềÁnBVMTToolStripMenuItem1, quảnLýHồSơToolStripMenuItem1 });
             toolStripMenuItem2.Name = "toolStripMenuItem2";
+            toolStripMenuItem2.Size = new Size(253, 26);
             toolStripMenuItem2.Text = "A. Cấp Huyện";
             // 
             // hồSơThẩmĐịnhToolStripMenuItem1
@@ -249,6 +250,7 @@
             // 
             bCấpTỉnhToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { đánhGiáTácĐộngMôiTrườngĐTMToolStripMenuItem, khaiThácNướcDướiĐấtToolStripMenuItem, xảThảiNướcThảiVàoNguồnNướcToolStripMenuItem });
             bCấpTỉnhToolStripMenuItem.Name = "bCấpTỉnhToolStripMenuItem";
+            bCấpTỉnhToolStripMenuItem.Size = new Size(253, 26);
             bCấpTỉnhToolStripMenuItem.Text = "B. Cấp Tỉnh";
             // 
             // đánhGiáTácĐộngMôiTrườngĐTMToolStripMenuItem
@@ -271,6 +273,12 @@
             xảThảiNướcThảiVàoNguồnNướcToolStripMenuItem.Size = new Size(366, 26);
             xảThảiNướcThảiVàoNguồnNướcToolStripMenuItem.Text = "3.6. Xả thải nước thải vào nguồn nước";
             xảThảiNướcThảiVàoNguồnNướcToolStripMenuItem.Click += xảThảiNướcThảiVàoNguồnNướcToolStripMenuItem_Click;
+            // 
+            // thẻHồSơMôiTrườngToolStripMenuItem2
+            // 
+            thẻHồSơMôiTrườngToolStripMenuItem2.Name = "thẻHồSơMôiTrườngToolStripMenuItem2";
+            thẻHồSơMôiTrườngToolStripMenuItem2.Size = new Size(253, 26);
+            thẻHồSơMôiTrườngToolStripMenuItem2.Text = "3. Thẻ Hồ sơ môi trường";
             // 
             // quảnLýHồSơToolStripMenuItem
             // 
@@ -338,6 +346,7 @@
             quảnLýTàiNguyênRừngToolStripMenuItem.Name = "quảnLýTàiNguyênRừngToolStripMenuItem";
             quảnLýTàiNguyênRừngToolStripMenuItem.Size = new Size(339, 26);
             quảnLýTàiNguyênRừngToolStripMenuItem.Text = "5.6. Quản lý tài nguyên rừng: ";
+            quảnLýTàiNguyênRừngToolStripMenuItem.Click += quảnLýTàiNguyênRừngToolStripMenuItem_Click;
             // 
             // quyChuẩnTiêuChuẩnHiệnHànhToolStripMenuItem
             // 
@@ -372,12 +381,6 @@
             thẻHồSơMôiTrườngToolStripMenuItem1.Name = "thẻHồSơMôiTrườngToolStripMenuItem1";
             thẻHồSơMôiTrườngToolStripMenuItem1.Size = new Size(324, 26);
             thẻHồSơMôiTrườngToolStripMenuItem1.Text = "6.4. Chức năng Đổi giao diện";
-            // 
-            // thẻHồSơMôiTrườngToolStripMenuItem2
-            // 
-            thẻHồSơMôiTrườngToolStripMenuItem2.Name = "thẻHồSơMôiTrườngToolStripMenuItem2";
-            thẻHồSơMôiTrườngToolStripMenuItem2.Size = new Size(253, 26);
-            thẻHồSơMôiTrườngToolStripMenuItem2.Text = "3. Thẻ Hồ sơ môi trường";
             // 
             // Form1
             // 
