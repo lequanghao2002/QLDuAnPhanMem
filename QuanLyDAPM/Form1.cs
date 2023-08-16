@@ -121,6 +121,20 @@
         private void camKếtBVMTToolStripMenuItem1_Click(object sender, EventArgs e)
         {
             var temp = new HSTD_CKcs();
+            temp.Show();
+        }
+
+
+        private void đềÁnBVMTToolStripMenuItem2_Click(object sender, EventArgs e)
+        {
+            var temp = new HST_ĐABVMT();
+            temp.Show();
+        }
+
+        private void đềÁnBVMTToolStripMenuItem3_Click(object sender, EventArgs e)
+        {
+            var temp = new HSQL_ĐABVMT();
+             temp.Show();
         }
 
         private void quảnLýTàiNguyênRừngToolStripMenuItem_Click(object sender, EventArgs e)
