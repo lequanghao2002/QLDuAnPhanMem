@@ -103,5 +103,11 @@
             var temp = new TheQTMT_Nhap();
             temp.Show();
         }
+
+        private void camKếtBVMTToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var temp = new _4();
+            temp.Show();
+        }
     }
 }
