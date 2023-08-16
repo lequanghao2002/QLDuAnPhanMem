@@ -134,12 +134,30 @@
         private void đềÁnBVMTToolStripMenuItem3_Click(object sender, EventArgs e)
         {
             var temp = new HSQL_ĐABVMT();
-             temp.Show();
+            temp.Show();
         }
 
         private void quảnLýTàiNguyênRừngToolStripMenuItem_Click(object sender, EventArgs e)
         {
             var temp = new QuanLyTaiNguyenRung();
+            temp.Show();
+        }
+
+        private void kếHoạchBVMTToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            var temp = new HST_KHBVMT();
+            temp.Show();
+        }
+
+        private void kếHoạchBVMTToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var temp = new HSTD_KHBVMT();
+            temp.Show();
+        }
+
+        private void kếHoạchBVMTToolStripMenuItem2_Click(object sender, EventArgs e)
+        {
+            var temp = new QLHS_KHBVMT();
             temp.Show();
         }
     }

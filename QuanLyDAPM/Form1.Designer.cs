@@ -188,6 +188,7 @@
             kếHoạchBVMTToolStripMenuItem.Name = "kếHoạchBVMTToolStripMenuItem";
             kếHoạchBVMTToolStripMenuItem.Size = new Size(452, 44);
             kếHoạchBVMTToolStripMenuItem.Text = "3.1.3 Kế hoạch BVMT";
+            kếHoạchBVMTToolStripMenuItem.Click += kếHoạchBVMTToolStripMenuItem_Click;
             // 
             // đềÁnBVMTToolStripMenuItem
             // 
@@ -209,6 +210,7 @@
             kếHoạchBVMTToolStripMenuItem1.Name = "kếHoạchBVMTToolStripMenuItem1";
             kếHoạchBVMTToolStripMenuItem1.Size = new Size(373, 44);
             kếHoạchBVMTToolStripMenuItem1.Text = "3.2.1 Kế hoạch BVMT";
+            kếHoạchBVMTToolStripMenuItem1.Click += kếHoạchBVMTToolStripMenuItem1_Click;
             // 
             // đềÁnBVMTToolStripMenuItem2
             // 
@@ -241,6 +243,7 @@
             kếHoạchBVMTToolStripMenuItem2.Name = "kếHoạchBVMTToolStripMenuItem2";
             kếHoạchBVMTToolStripMenuItem2.Size = new Size(452, 44);
             kếHoạchBVMTToolStripMenuItem2.Text = "3.3.3 Kế hoạch BVMT";
+            kếHoạchBVMTToolStripMenuItem2.Click += kếHoạchBVMTToolStripMenuItem2_Click;
             // 
             // đềÁnBVMTToolStripMenuItem3
             // 
