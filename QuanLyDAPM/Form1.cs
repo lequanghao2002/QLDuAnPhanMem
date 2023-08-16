@@ -26,7 +26,7 @@
 
         private void phiếuChuyểnĐơnToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            var temp = new GQKN_PCD();
+            var temp = new QuanLyMoiTruong();
             temp.Show();
         }
 
@@ -75,10 +75,6 @@
             temp.Show();
         }
 
-        private void kếHoạchBVMTToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-
-        }
 
         private void đềÁnBVMTToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -104,9 +100,53 @@
             temp.Show();
         }
 
+
         private void camKếtBVMTToolStripMenuItem_Click(object sender, EventArgs e)
         {
             var temp = new _4();
+            temp.Show();
+            }
+
+        private void đánhGiáTácĐộngMôiTrườngĐTMToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var temp = new ĐTM();
+            temp.Show();
+        }
+
+        private void biênNhậnToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var temp = new GBN();
+            temp.Show();
+        }
+
+        private void bảnĐăngKýĐạtTCMTToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var temp = new HSTD_BDK();
+            temp.Show();
+        }
+
+        private void camKếtBVMTToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            var temp = new HSTD_CKcs();
+            temp.Show();
+        }
+
+
+        private void đềÁnBVMTToolStripMenuItem2_Click(object sender, EventArgs e)
+        {
+            var temp = new HST_ĐABVMT();
+            temp.Show();
+        }
+
+        private void đềÁnBVMTToolStripMenuItem3_Click(object sender, EventArgs e)
+        {
+            var temp = new HSQL_ĐABVMT();
+             temp.Show();
+        }
+
+        private void quảnLýTàiNguyênRừngToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var temp = new QuanLyTaiNguyenRung();
             temp.Show();
         }
     }
