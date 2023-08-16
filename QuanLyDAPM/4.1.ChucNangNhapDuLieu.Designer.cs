@@ -51,6 +51,7 @@
             textBox13 = new TextBox();
             textBox14 = new TextBox();
             textBox15 = new TextBox();
+            button1 = new Button();
             SuspendLayout();
             // 
             // label1
@@ -237,11 +238,22 @@
             textBox15.Size = new Size(187, 27);
             textBox15.TabIndex = 2;
             // 
+            // button1
+            // 
+            button1.Location = new Point(885, 508);
+            button1.Name = "button1";
+            button1.Size = new Size(94, 29);
+            button1.TabIndex = 3;
+            button1.Text = "Lưu";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click_1;
+            // 
             // TheQTMT_Nhap
             // 
             AutoScaleDimensions = new SizeF(9F, 19F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1051, 506);
+            ClientSize = new Size(1051, 563);
+            Controls.Add(button1);
             Controls.Add(textBox15);
             Controls.Add(textBox10);
             Controls.Add(textBox5);
@@ -269,6 +281,7 @@
             Name = "TheQTMT_Nhap";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "THẺ QUAN TRẮC MÔI TRƯỜNG - CHỨC NĂNG NHẬP LIỆU ";
+            Load += TheQTMT_Nhap_Load;
             ResumeLayout(false);
             PerformLayout();
         }
@@ -298,5 +311,6 @@
         private TextBox textBox13;
         private TextBox textBox14;
         private TextBox textBox15;
+        private Button button1;
     }
 }

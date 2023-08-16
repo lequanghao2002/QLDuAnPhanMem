@@ -100,6 +100,13 @@
             temp.Show();
         }
 
+
+        private void camKếtBVMTToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var temp = new _4();
+            temp.Show();
+            }
+
         private void đánhGiáTácĐộngMôiTrườngĐTMToolStripMenuItem_Click(object sender, EventArgs e)
         {
             var temp = new ĐTM();

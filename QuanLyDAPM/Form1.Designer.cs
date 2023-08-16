@@ -287,8 +287,8 @@
             // 
             quảnLýHồSơToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { bảnĐăngKýTCMTToolStripMenuItem1, camKếtBVMTToolStripMenuItem, chứcNăngThốngKêToolStripMenuItem });
             quảnLýHồSơToolStripMenuItem.Name = "quảnLýHồSơToolStripMenuItem";
-            quảnLýHồSơToolStripMenuItem.Size = new Size(342, 38);
-            quảnLýHồSơToolStripMenuItem.Text = "4.\tThẻ Quan trắc môi trường: ";
+            quảnLýHồSơToolStripMenuItem.Size = new Size(209, 24);
+            quảnLýHồSơToolStripMenuItem.Text = "4. Thẻ Quan trắc môi trường";
             // 
             // bảnĐăngKýTCMTToolStripMenuItem1
             // 
@@ -302,6 +302,7 @@
             camKếtBVMTToolStripMenuItem.Name = "camKếtBVMTToolStripMenuItem";
             camKếtBVMTToolStripMenuItem.Size = new Size(446, 44);
             camKếtBVMTToolStripMenuItem.Text = "4.2. Chức năng Xem dữ liệu";
+            camKếtBVMTToolStripMenuItem.Click += camKếtBVMTToolStripMenuItem_Click;
             // 
             // chứcNăngThốngKêToolStripMenuItem
             // 
