@@ -105,7 +105,7 @@
         {
             var temp = new _4();
             temp.Show();
-            }
+        }
 
         private void đánhGiáTácĐộngMôiTrườngĐTMToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -165,6 +165,12 @@
         private void kếHoạchBVMTToolStripMenuItem2_Click(object sender, EventArgs e)
         {
             var temp = new QLHS_KHBVMT();
+            temp.Show();
+        }
+
+        private void vănBảnTrảLờiToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+            var temp = new QuanLyTaiNguyenNuoc();
             temp.Show();
         }
     }
