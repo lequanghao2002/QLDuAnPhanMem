@@ -230,12 +230,14 @@
             bảnĐăngKýĐạtTCMTToolStripMenuItem1.Name = "bảnĐăngKýĐạtTCMTToolStripMenuItem1";
             bảnĐăngKýĐạtTCMTToolStripMenuItem1.Size = new Size(278, 26);
             bảnĐăngKýĐạtTCMTToolStripMenuItem1.Text = "3.3.1 Bản đăng ký đạt TCMT ";
+            bảnĐăngKýĐạtTCMTToolStripMenuItem1.Click += bảnĐăngKýĐạtTCMTToolStripMenuItem1_Click;
             // 
             // camKếtBVMTToolStripMenuItem2
             // 
             camKếtBVMTToolStripMenuItem2.Name = "camKếtBVMTToolStripMenuItem2";
             camKếtBVMTToolStripMenuItem2.Size = new Size(278, 26);
             camKếtBVMTToolStripMenuItem2.Text = "3.3.2 Cam kết BVMT ";
+            camKếtBVMTToolStripMenuItem2.Click += camKếtBVMTToolStripMenuItem2_Click;
             // 
             // kếHoạchBVMTToolStripMenuItem2
             // 

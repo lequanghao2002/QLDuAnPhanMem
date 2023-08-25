@@ -173,5 +173,17 @@
             var temp = new QuanLyTaiNguyenNuoc();
             temp.Show();
         }
+
+        private void bảnĐăngKýĐạtTCMTToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            var temp = new HSTD_BDK();
+            temp.Show();
+        }
+
+        private void camKếtBVMTToolStripMenuItem2_Click(object sender, EventArgs e)
+        {
+            var temp = new HSTD_CKcs();
+            temp.Show();
+        }
     }
 }
