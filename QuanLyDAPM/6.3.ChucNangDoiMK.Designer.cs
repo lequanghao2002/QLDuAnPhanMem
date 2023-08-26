@@ -48,16 +48,16 @@
             // 
             // button1
             // 
-            button1.Location = new Point(384, 250);
+            button1.Location = new Point(445, 265);
             button1.Name = "button1";
-            button1.Size = new Size(128, 43);
+            button1.Size = new Size(207, 43);
             button1.TabIndex = 1;
             button1.Text = "Đổi mật khẩu";
             button1.UseVisualStyleBackColor = true;
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(251, 51);
+            textBox1.Location = new Point(376, 54);
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(261, 44);
             textBox1.TabIndex = 2;
@@ -73,7 +73,7 @@
             // 
             // textBox2
             // 
-            textBox2.Location = new Point(251, 111);
+            textBox2.Location = new Point(376, 111);
             textBox2.Name = "textBox2";
             textBox2.Size = new Size(261, 44);
             textBox2.TabIndex = 2;
@@ -89,7 +89,7 @@
             // 
             // textBox3
             // 
-            textBox3.Location = new Point(251, 171);
+            textBox3.Location = new Point(376, 171);
             textBox3.Name = "textBox3";
             textBox3.Size = new Size(261, 44);
             textBox3.TabIndex = 2;
@@ -98,7 +98,7 @@
             // 
             AutoScaleDimensions = new SizeF(18F, 36F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(571, 337);
+            ClientSize = new Size(687, 337);
             Controls.Add(textBox3);
             Controls.Add(textBox2);
             Controls.Add(label3);

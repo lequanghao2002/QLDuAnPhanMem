@@ -113,7 +113,7 @@
             // 
             label6.AutoSize = true;
             label6.Font = new Font("Times New Roman", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            label6.Location = new Point(314, 69);
+            label6.Location = new Point(414, 52);
             label6.Name = "label6";
             label6.Size = new Size(228, 36);
             label6.TabIndex = 1;
@@ -121,15 +121,15 @@
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(239, 94);
+            textBox1.Location = new Point(374, 100);
             textBox1.Multiline = true;
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(277, 75);
+            textBox1.Size = new Size(278, 75);
             textBox1.TabIndex = 2;
             // 
             // textBox2
             // 
-            textBox2.Location = new Point(238, 198);
+            textBox2.Location = new Point(374, 204);
             textBox2.Multiline = true;
             textBox2.Name = "textBox2";
             textBox2.Size = new Size(277, 75);
@@ -137,7 +137,7 @@
             // 
             // textBox3
             // 
-            textBox3.Location = new Point(238, 282);
+            textBox3.Location = new Point(374, 288);
             textBox3.Multiline = true;
             textBox3.Name = "textBox3";
             textBox3.Size = new Size(277, 75);
@@ -145,7 +145,7 @@
             // 
             // textBox4
             // 
-            textBox4.Location = new Point(238, 370);
+            textBox4.Location = new Point(374, 376);
             textBox4.Multiline = true;
             textBox4.Name = "textBox4";
             textBox4.Size = new Size(277, 75);
@@ -153,7 +153,7 @@
             // 
             // textBox5
             // 
-            textBox5.Location = new Point(238, 458);
+            textBox5.Location = new Point(374, 464);
             textBox5.Multiline = true;
             textBox5.Name = "textBox5";
             textBox5.Size = new Size(277, 75);
@@ -163,7 +163,7 @@
             // 
             label7.AutoSize = true;
             label7.Font = new Font("Times New Roman", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            label7.Location = new Point(692, 69);
+            label7.Location = new Point(792, 48);
             label7.Name = "label7";
             label7.Size = new Size(315, 36);
             label7.TabIndex = 1;
@@ -171,7 +171,7 @@
             // 
             // textBox6
             // 
-            textBox6.Location = new Point(561, 94);
+            textBox6.Location = new Point(677, 96);
             textBox6.Multiline = true;
             textBox6.Name = "textBox6";
             textBox6.Size = new Size(450, 75);
@@ -179,7 +179,7 @@
             // 
             // textBox7
             // 
-            textBox7.Location = new Point(561, 198);
+            textBox7.Location = new Point(677, 200);
             textBox7.Multiline = true;
             textBox7.Name = "textBox7";
             textBox7.Size = new Size(450, 75);
@@ -187,7 +187,7 @@
             // 
             // textBox8
             // 
-            textBox8.Location = new Point(561, 282);
+            textBox8.Location = new Point(677, 284);
             textBox8.Multiline = true;
             textBox8.Name = "textBox8";
             textBox8.Size = new Size(450, 75);
@@ -195,7 +195,7 @@
             // 
             // textBox9
             // 
-            textBox9.Location = new Point(561, 370);
+            textBox9.Location = new Point(677, 372);
             textBox9.Multiline = true;
             textBox9.Name = "textBox9";
             textBox9.Size = new Size(450, 75);
@@ -203,7 +203,7 @@
             // 
             // textBox10
             // 
-            textBox10.Location = new Point(561, 458);
+            textBox10.Location = new Point(677, 460);
             textBox10.Multiline = true;
             textBox10.Name = "textBox10";
             textBox10.Size = new Size(450, 75);
@@ -212,15 +212,15 @@
             // label8
             // 
             label8.Font = new Font("Times New Roman", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            label8.Location = new Point(1114, 67);
+            label8.Location = new Point(1188, 47);
             label8.Name = "label8";
-            label8.Size = new Size(243, 25);
+            label8.Size = new Size(312, 36);
             label8.TabIndex = 1;
             label8.Text = "Các thông số quan trắc cụ thể ";
             // 
             // textBox11
             // 
-            textBox11.Location = new Point(1062, 95);
+            textBox11.Location = new Point(1162, 96);
             textBox11.Multiline = true;
             textBox11.Name = "textBox11";
             textBox11.Size = new Size(338, 74);
@@ -228,35 +228,35 @@
             // 
             // textBox12
             // 
-            textBox12.Location = new Point(1163, 215);
+            textBox12.Location = new Point(1263, 216);
             textBox12.Name = "textBox12";
             textBox12.Size = new Size(219, 39);
             textBox12.TabIndex = 2;
             // 
             // textBox13
             // 
-            textBox13.Location = new Point(1163, 286);
+            textBox13.Location = new Point(1263, 287);
             textBox13.Name = "textBox13";
             textBox13.Size = new Size(219, 39);
             textBox13.TabIndex = 2;
             // 
             // textBox14
             // 
-            textBox14.Location = new Point(1163, 374);
+            textBox14.Location = new Point(1263, 375);
             textBox14.Name = "textBox14";
             textBox14.Size = new Size(219, 39);
             textBox14.TabIndex = 2;
             // 
             // textBox15
             // 
-            textBox15.Location = new Point(1163, 462);
+            textBox15.Location = new Point(1263, 463);
             textBox15.Name = "textBox15";
             textBox15.Size = new Size(219, 39);
             textBox15.TabIndex = 2;
             // 
             // button1
             // 
-            button1.Location = new Point(1274, 562);
+            button1.Location = new Point(1444, 562);
             button1.Name = "button1";
             button1.Size = new Size(126, 43);
             button1.TabIndex = 3;
@@ -266,7 +266,7 @@
             // 
             // textBox16
             // 
-            textBox16.Location = new Point(1062, 95);
+            textBox16.Location = new Point(1162, 96);
             textBox16.Multiline = true;
             textBox16.Name = "textBox16";
             textBox16.Size = new Size(338, 74);
@@ -274,7 +274,7 @@
             // 
             // textBox17
             // 
-            textBox17.Location = new Point(1062, 198);
+            textBox17.Location = new Point(1162, 199);
             textBox17.Multiline = true;
             textBox17.Name = "textBox17";
             textBox17.Size = new Size(338, 74);
@@ -282,7 +282,7 @@
             // 
             // textBox18
             // 
-            textBox18.Location = new Point(1062, 286);
+            textBox18.Location = new Point(1162, 287);
             textBox18.Multiline = true;
             textBox18.Name = "textBox18";
             textBox18.Size = new Size(338, 74);
@@ -290,7 +290,7 @@
             // 
             // textBox19
             // 
-            textBox19.Location = new Point(1062, 374);
+            textBox19.Location = new Point(1162, 375);
             textBox19.Multiline = true;
             textBox19.Name = "textBox19";
             textBox19.Size = new Size(338, 74);
@@ -298,7 +298,7 @@
             // 
             // textBox20
             // 
-            textBox20.Location = new Point(1062, 462);
+            textBox20.Location = new Point(1162, 463);
             textBox20.Multiline = true;
             textBox20.Name = "textBox20";
             textBox20.Size = new Size(338, 74);
@@ -308,7 +308,7 @@
             // 
             AutoScaleDimensions = new SizeF(15F, 31F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1412, 617);
+            ClientSize = new Size(1582, 617);
             Controls.Add(button1);
             Controls.Add(textBox20);
             Controls.Add(textBox15);
