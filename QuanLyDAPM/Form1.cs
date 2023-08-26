@@ -36,12 +36,12 @@
 
         private void biênBảnKiểmTraToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            
+
         }
 
         private void báoCáoToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            
+
         }
 
         private void vănBảnTrảLờiToolStripMenuItem_Click(object sender, EventArgs e)
@@ -275,6 +275,12 @@
         private void vănBảnTrảLờiToolStripMenuItem1_Click(object sender, EventArgs e)
         {
             var temp = new GQKN_VBTL();
+            temp.Show();
+        }
+
+        private void chứcNăngThốngKêToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var temp = new ThongKeQT();
             temp.Show();
         }
     }
