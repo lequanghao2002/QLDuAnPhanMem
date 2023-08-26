@@ -42,7 +42,7 @@
             label1.AutoSize = true;
             label1.Location = new Point(57, 54);
             label1.Name = "label1";
-            label1.Size = new Size(149, 22);
+            label1.Size = new Size(242, 36);
             label1.TabIndex = 0;
             label1.Text = "Nhập mật khẩu cũ";
             // 
@@ -59,7 +59,7 @@
             // 
             textBox1.Location = new Point(251, 51);
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(261, 30);
+            textBox1.Size = new Size(261, 44);
             textBox1.TabIndex = 2;
             // 
             // label2
@@ -67,7 +67,7 @@
             label2.AutoSize = true;
             label2.Location = new Point(57, 114);
             label2.Name = "label2";
-            label2.Size = new Size(162, 22);
+            label2.Size = new Size(262, 36);
             label2.TabIndex = 0;
             label2.Text = "Nhập mật khẩu mới";
             // 
@@ -75,7 +75,7 @@
             // 
             textBox2.Location = new Point(251, 111);
             textBox2.Name = "textBox2";
-            textBox2.Size = new Size(261, 30);
+            textBox2.Size = new Size(261, 44);
             textBox2.TabIndex = 2;
             // 
             // label3
@@ -83,7 +83,7 @@
             label3.AutoSize = true;
             label3.Location = new Point(57, 174);
             label3.Name = "label3";
-            label3.Size = new Size(188, 22);
+            label3.Size = new Size(302, 36);
             label3.TabIndex = 0;
             label3.Text = "Nhập lại mật khẩu mới";
             // 
@@ -91,12 +91,12 @@
             // 
             textBox3.Location = new Point(251, 171);
             textBox3.Name = "textBox3";
-            textBox3.Size = new Size(261, 30);
+            textBox3.Size = new Size(261, 44);
             textBox3.TabIndex = 2;
             // 
             // DoiMK
             // 
-            AutoScaleDimensions = new SizeF(11F, 22F);
+            AutoScaleDimensions = new SizeF(18F, 36F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(571, 337);
             Controls.Add(textBox3);

@@ -10,11 +10,18 @@ using System.Windows.Forms;
 
 namespace QuanLyDAPM
 {
-    public partial class ThongKe : Form
+    public partial class ThongKe : Form, IThemeable
     {
         public ThongKe()
         {
             InitializeComponent();
         }
+
+        public void ApplyTheme(Color backgroundColor)
+        {
+            this.BackColor = backgroundColor;
+        }
+
+
     }
 }

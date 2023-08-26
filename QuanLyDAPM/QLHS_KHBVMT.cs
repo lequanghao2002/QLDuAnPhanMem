@@ -10,17 +10,23 @@ using System.Windows.Forms;
 
 namespace QuanLyDAPM
 {
-    public partial class QLHS_KHBVMT : Form
+    public partial class QLHS_KHBVMT : Form, IThemeable
     {
         public QLHS_KHBVMT()
         {
             InitializeComponent();
         }
+        public void ApplyTheme(Color backgroundColor)
+        {
+            this.BackColor = backgroundColor;
+        }
+
 
         private void button3_Click(object sender, EventArgs e)
         {
             var temp = new QLHS_KHBVMT_CT();
             temp.Show();
         }
+
     }
 }

@@ -65,7 +65,7 @@
             label1.Font = new Font("Times New Roman", 12F, FontStyle.Regular, GraphicsUnit.Point);
             label1.Location = new Point(12, 95);
             label1.Name = "label1";
-            label1.Size = new Size(202, 22);
+            label1.Size = new Size(329, 36);
             label1.TabIndex = 0;
             label1.Text = "1. Không khí xung quanh";
             // 
@@ -75,7 +75,7 @@
             label2.Font = new Font("Times New Roman", 12F, FontStyle.Regular, GraphicsUnit.Point);
             label2.Location = new Point(11, 203);
             label2.Name = "label2";
-            label2.Size = new Size(109, 22);
+            label2.Size = new Size(173, 36);
             label2.TabIndex = 0;
             label2.Text = "2. Nước thải";
             // 
@@ -85,7 +85,7 @@
             label3.Font = new Font("Times New Roman", 12F, FontStyle.Regular, GraphicsUnit.Point);
             label3.Location = new Point(11, 287);
             label3.Name = "label3";
-            label3.Size = new Size(113, 22);
+            label3.Size = new Size(180, 36);
             label3.TabIndex = 0;
             label3.Text = "3. Nước mặt ";
             // 
@@ -95,7 +95,7 @@
             label4.Font = new Font("Times New Roman", 12F, FontStyle.Regular, GraphicsUnit.Point);
             label4.Location = new Point(11, 375);
             label4.Name = "label4";
-            label4.Size = new Size(147, 22);
+            label4.Size = new Size(232, 36);
             label4.TabIndex = 0;
             label4.Text = "4. Nước dưới đất";
             // 
@@ -105,7 +105,7 @@
             label5.Font = new Font("Times New Roman", 12F, FontStyle.Regular, GraphicsUnit.Point);
             label5.Location = new Point(11, 463);
             label5.Name = "label5";
-            label5.Size = new Size(93, 22);
+            label5.Size = new Size(148, 36);
             label5.TabIndex = 0;
             label5.Text = "5. Khí thải";
             // 
@@ -115,7 +115,7 @@
             label6.Font = new Font("Times New Roman", 12F, FontStyle.Regular, GraphicsUnit.Point);
             label6.Location = new Point(314, 69);
             label6.Name = "label6";
-            label6.Size = new Size(144, 22);
+            label6.Size = new Size(228, 36);
             label6.TabIndex = 1;
             label6.Text = "Thời gian đo đạc";
             // 
@@ -165,7 +165,7 @@
             label7.Font = new Font("Times New Roman", 12F, FontStyle.Regular, GraphicsUnit.Point);
             label7.Location = new Point(692, 69);
             label7.Name = "label7";
-            label7.Size = new Size(198, 22);
+            label7.Size = new Size(315, 36);
             label7.TabIndex = 1;
             label7.Text = "Vị trí đo đạc (địa điểm)";
             // 
@@ -230,28 +230,28 @@
             // 
             textBox12.Location = new Point(1163, 215);
             textBox12.Name = "textBox12";
-            textBox12.Size = new Size(219, 27);
+            textBox12.Size = new Size(219, 39);
             textBox12.TabIndex = 2;
             // 
             // textBox13
             // 
             textBox13.Location = new Point(1163, 286);
             textBox13.Name = "textBox13";
-            textBox13.Size = new Size(219, 27);
+            textBox13.Size = new Size(219, 39);
             textBox13.TabIndex = 2;
             // 
             // textBox14
             // 
             textBox14.Location = new Point(1163, 374);
             textBox14.Name = "textBox14";
-            textBox14.Size = new Size(219, 27);
+            textBox14.Size = new Size(219, 39);
             textBox14.TabIndex = 2;
             // 
             // textBox15
             // 
             textBox15.Location = new Point(1163, 462);
             textBox15.Name = "textBox15";
-            textBox15.Size = new Size(219, 27);
+            textBox15.Size = new Size(219, 39);
             textBox15.TabIndex = 2;
             // 
             // button1
@@ -306,7 +306,7 @@
             // 
             // TheQTMT_Nhap
             // 
-            AutoScaleDimensions = new SizeF(9F, 19F);
+            AutoScaleDimensions = new SizeF(15F, 31F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1412, 617);
             Controls.Add(button1);

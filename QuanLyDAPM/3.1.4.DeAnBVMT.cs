@@ -10,11 +10,18 @@ using System.Windows.Forms;
 
 namespace QuanLyDAPM
 {
-    public partial class DeAnBVMT : Form
+    public partial class DeAnBVMT : Form, IThemeable
     {
         public DeAnBVMT()
         {
             InitializeComponent();
         }
+        public void ApplyTheme(Color backgroundColor)
+        {
+            this.BackColor = backgroundColor;
+        }
+
+
+        
     }
 }

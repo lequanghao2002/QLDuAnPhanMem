@@ -10,12 +10,17 @@ using System.Windows.Forms;
 
 namespace QuanLyDAPM
 {
-    public partial class HSQL_ĐABVMT : Form
+    public partial class HSQL_ĐABVMT : Form, IThemeable
     {
         public HSQL_ĐABVMT()
         {
             InitializeComponent();
         }
+        public void ApplyTheme(Color backgroundColor)
+        {
+            this.BackColor = backgroundColor;
+        }
+
 
 
     }

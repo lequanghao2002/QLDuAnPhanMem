@@ -9,10 +9,20 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace QuanLyDAPM;
-public partial class QuanLyTaiNguyenNuoc : Form
+public partial class QuanLyTaiNguyenNuoc : Form, IThemeable
 {
     public QuanLyTaiNguyenNuoc()
     {
         InitializeComponent();
+    }
+    public void ApplyTheme(Color backgroundColor)
+    {
+        this.BackColor = backgroundColor;
+    }
+
+
+    private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+    {
+
     }
 }

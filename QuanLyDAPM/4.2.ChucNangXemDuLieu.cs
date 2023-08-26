@@ -1,10 +1,16 @@
 ﻿namespace QuanLyDAPM;
-public partial class _4 : Form
+public partial class _4 : Form, IThemeable
 {
     public _4()
     {
         InitializeComponent();
     }
+
+    public void ApplyTheme(Color backgroundColor)
+    {
+        this.BackColor = backgroundColor;
+    }
+
 
     private void _4_Load(object sender, EventArgs e)
     {
@@ -30,4 +36,6 @@ public partial class _4 : Form
         textBox10.Text = TheQTMT_Nhap.ListData[4][1];
         textBox15.Text = TheQTMT_Nhap.ListData[4][2];
     }
+
+  
 }

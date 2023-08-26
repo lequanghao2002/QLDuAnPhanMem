@@ -42,7 +42,7 @@
             comboBox1.Items.AddRange(new object[] { "Thời gian", "Loại hình", "Khu vực" });
             comboBox1.Location = new Point(227, 44);
             comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(169, 27);
+            comboBox1.Size = new Size(169, 39);
             comboBox1.TabIndex = 0;
             // 
             // label1
@@ -51,7 +51,7 @@
             label1.Font = new Font("Times New Roman", 12F, FontStyle.Regular, GraphicsUnit.Point);
             label1.Location = new Point(64, 45);
             label1.Name = "label1";
-            label1.Size = new Size(157, 22);
+            label1.Size = new Size(254, 36);
             label1.TabIndex = 1;
             label1.Text = "Chọn loại thống kê";
             // 
@@ -78,12 +78,12 @@
             // 
             textBox1.Location = new Point(434, 45);
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(172, 27);
+            textBox1.Size = new Size(172, 39);
             textBox1.TabIndex = 4;
             // 
             // ThongKe
             // 
-            AutoScaleDimensions = new SizeF(9F, 19F);
+            AutoScaleDimensions = new SizeF(15F, 31F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(822, 523);
             Controls.Add(textBox1);

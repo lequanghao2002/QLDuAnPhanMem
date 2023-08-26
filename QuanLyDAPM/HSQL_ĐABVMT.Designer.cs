@@ -35,26 +35,26 @@
             label1 = new Label();
             textBox2 = new TextBox();
             panel1 = new Panel();
-            panel2 = new Panel();
-            label2 = new Label();
-            label4 = new Label();
-            label32 = new Label();
+            textBox3 = new TextBox();
             label16 = new Label();
-            label5 = new Label();
-            label7 = new Label();
+            pictureBox2 = new PictureBox();
+            label32 = new Label();
+            label2 = new Label();
+            panel2 = new Panel();
             textBox15 = new TextBox();
             pictureBox1 = new PictureBox();
-            textBox3 = new TextBox();
-            pictureBox2 = new PictureBox();
+            label5 = new Label();
+            label4 = new Label();
+            label7 = new Label();
             label15 = new Label();
             label14 = new Label();
             textBox6 = new TextBox();
             textBox5 = new TextBox();
             textBox8 = new TextBox();
             panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             SuspendLayout();
             // 
             // textBox10
@@ -141,50 +141,14 @@
             panel1.Size = new Size(759, 363);
             panel1.TabIndex = 110;
             // 
-            // panel2
+            // textBox3
             // 
-            panel2.BorderStyle = BorderStyle.FixedSingle;
-            panel2.Controls.Add(textBox15);
-            panel2.Controls.Add(pictureBox1);
-            panel2.Controls.Add(label5);
-            panel2.Controls.Add(label4);
-            panel2.Controls.Add(label7);
-            panel2.Location = new Point(921, 466);
-            panel2.Name = "panel2";
-            panel2.Size = new Size(759, 363);
-            panel2.TabIndex = 111;
-            // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label2.Location = new Point(74, 19);
-            label2.Margin = new Padding(5, 0, 5, 0);
-            label2.Name = "label2";
-            label2.Size = new Size(615, 45);
-            label2.TabIndex = 112;
-            label2.Text = "CƠ QUAN/DOANH NGHIỆP CHỦ CƠ SỞ\r\n";
-            // 
-            // label4
-            // 
-            label4.AutoSize = true;
-            label4.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label4.Location = new Point(257, 19);
-            label4.Margin = new Padding(5, 0, 5, 0);
-            label4.Name = "label4";
-            label4.Size = new Size(299, 45);
-            label4.TabIndex = 113;
-            label4.Text = "CƠ QUAN TƯ VẤN";
-            // 
-            // label32
-            // 
-            label32.AutoSize = true;
-            label32.Location = new Point(201, 123);
-            label32.Margin = new Padding(5, 0, 5, 0);
-            label32.Name = "label32";
-            label32.Size = new Size(346, 32);
-            label32.TabIndex = 123;
-            label32.Text = "(Ký, ghi rõ họ tên và đóng dấu)";
+            textBox3.Location = new Point(131, 282);
+            textBox3.Margin = new Padding(5);
+            textBox3.Name = "textBox3";
+            textBox3.Size = new Size(433, 39);
+            textBox3.TabIndex = 132;
+            textBox3.TextAlign = HorizontalAlignment.Center;
             // 
             // label16
             // 
@@ -197,26 +161,47 @@
             label16.TabIndex = 126;
             label16.Text = "Người đại diện";
             // 
-            // label5
+            // pictureBox2
             // 
-            label5.AutoSize = true;
-            label5.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label5.Location = new Point(279, 73);
-            label5.Margin = new Padding(5, 0, 5, 0);
-            label5.Name = "label5";
-            label5.Size = new Size(244, 45);
-            label5.TabIndex = 128;
-            label5.Text = "Người đại diện";
+            pictureBox2.Location = new Point(251, 174);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new Size(200, 100);
+            pictureBox2.TabIndex = 131;
+            pictureBox2.TabStop = false;
             // 
-            // label7
+            // label32
             // 
-            label7.AutoSize = true;
-            label7.Location = new Point(244, 123);
-            label7.Margin = new Padding(5, 0, 5, 0);
-            label7.Name = "label7";
-            label7.Size = new Size(346, 32);
-            label7.TabIndex = 127;
-            label7.Text = "(Ký, ghi rõ họ tên và đóng dấu)";
+            label32.AutoSize = true;
+            label32.Location = new Point(201, 123);
+            label32.Margin = new Padding(5, 0, 5, 0);
+            label32.Name = "label32";
+            label32.Size = new Size(346, 32);
+            label32.TabIndex = 123;
+            label32.Text = "(Ký, ghi rõ họ tên và đóng dấu)";
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            label2.Location = new Point(74, 19);
+            label2.Margin = new Padding(5, 0, 5, 0);
+            label2.Name = "label2";
+            label2.Size = new Size(615, 45);
+            label2.TabIndex = 112;
+            label2.Text = "CƠ QUAN/DOANH NGHIỆP CHỦ CƠ SỞ\r\n";
+            // 
+            // panel2
+            // 
+            panel2.BorderStyle = BorderStyle.FixedSingle;
+            panel2.Controls.Add(textBox15);
+            panel2.Controls.Add(pictureBox1);
+            panel2.Controls.Add(label5);
+            panel2.Controls.Add(label4);
+            panel2.Controls.Add(label7);
+            panel2.Location = new Point(921, 466);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(759, 363);
+            panel2.TabIndex = 111;
             // 
             // textBox15
             // 
@@ -235,22 +220,37 @@
             pictureBox1.TabIndex = 129;
             pictureBox1.TabStop = false;
             // 
-            // textBox3
+            // label5
             // 
-            textBox3.Location = new Point(131, 282);
-            textBox3.Margin = new Padding(5);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(433, 39);
-            textBox3.TabIndex = 132;
-            textBox3.TextAlign = HorizontalAlignment.Center;
+            label5.AutoSize = true;
+            label5.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            label5.Location = new Point(279, 73);
+            label5.Margin = new Padding(5, 0, 5, 0);
+            label5.Name = "label5";
+            label5.Size = new Size(244, 45);
+            label5.TabIndex = 128;
+            label5.Text = "Người đại diện";
             // 
-            // pictureBox2
+            // label4
             // 
-            pictureBox2.Location = new Point(251, 174);
-            pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(200, 100);
-            pictureBox2.TabIndex = 131;
-            pictureBox2.TabStop = false;
+            label4.AutoSize = true;
+            label4.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            label4.Location = new Point(257, 19);
+            label4.Margin = new Padding(5, 0, 5, 0);
+            label4.Name = "label4";
+            label4.Size = new Size(299, 45);
+            label4.TabIndex = 113;
+            label4.Text = "CƠ QUAN TƯ VẤN";
+            // 
+            // label7
+            // 
+            label7.AutoSize = true;
+            label7.Location = new Point(244, 123);
+            label7.Margin = new Padding(5, 0, 5, 0);
+            label7.Name = "label7";
+            label7.Size = new Size(346, 32);
+            label7.TabIndex = 127;
+            label7.Text = "(Ký, ghi rõ họ tên và đóng dấu)";
             // 
             // label15
             // 
@@ -319,10 +319,10 @@
             Text = "HSQL_ĐABVMT";
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             panel2.ResumeLayout(false);
             panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }

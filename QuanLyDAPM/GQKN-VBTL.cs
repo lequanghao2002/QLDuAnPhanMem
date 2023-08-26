@@ -10,16 +10,23 @@ using System.Windows.Forms;
 
 namespace QuanLyDAPM
 {
-    public partial class GQKN_VBTL : Form
+    public partial class GQKN_VBTL : Form, IThemeable
     {
         public GQKN_VBTL()
         {
             InitializeComponent();
         }
 
+        public void ApplyTheme(Color backgroundColor)
+        {
+            this.BackColor = backgroundColor;
+        }
+
+
         private void textBox14_TextChanged(object sender, EventArgs e)
         {
 
         }
+
     }
 }

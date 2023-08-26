@@ -10,12 +10,17 @@ using System.Windows.Forms;
 
 namespace QuanLyDAPM
 {
-    public partial class ĐTM_PL : Form
+    public partial class ĐTM_PL : Form, IThemeable
     {
         public ĐTM_PL()
         {
             InitializeComponent();
         }
+        public void ApplyTheme(Color backgroundColor)
+        {
+            this.BackColor = backgroundColor;
+        }
+
 
     }
 }

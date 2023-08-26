@@ -10,23 +10,31 @@ using System.Windows.Forms;
 
 namespace QuanLyDAPM
 {
-    public partial class ĐTM : Form, IThemeable
+    public partial class CN_ĐGD : Form, IThemeable
     {
-        public ĐTM()
+        public CN_ĐGD()
         {
             InitializeComponent();
         }
+
         public void ApplyTheme(Color backgroundColor)
         {
             this.BackColor = backgroundColor;
         }
 
 
-        private void button1_Click(object sender, EventArgs e)
+        private void CN_ĐGD_Load(object sender, EventArgs e)
         {
-            var temp = new ĐTM_PL();
-            temp.Show();
+
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            ColorDialog colorDialog = new ColorDialog();
+            if (colorDialog.ShowDialog() == DialogResult.OK)
+            {
+                ThemeManager.BackgroundColor = colorDialog.Color;
+            }
+        }
     }
 }

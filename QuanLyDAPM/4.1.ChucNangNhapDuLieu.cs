@@ -1,19 +1,25 @@
 ﻿namespace QuanLyDAPM
 {
-    public partial class TheQTMT_Nhap : Form
+    public partial class TheQTMT_Nhap : Form, IThemeable
     {
         private static List<List<string>> list = new();
 
         public static List<List<string>>? ListData
         {
             get { return list; }
-            set => list = value;
+            set => list = value!;
         }
 
         public TheQTMT_Nhap()
         {
             InitializeComponent();
         }
+
+        public void ApplyTheme(Color backgroundColor)
+        {
+            this.BackColor = backgroundColor;
+        }
+
 
         private void button1_Click(object sender, EventArgs e)
         {
@@ -64,5 +70,7 @@
         private void textBox9_TextChanged(object sender, EventArgs e)
         {
         }
+
+        
     }
 }

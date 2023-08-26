@@ -40,26 +40,29 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Times New Roman", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
-            label2.Location = new Point(168, 85);
+            label2.Location = new Point(273, 136);
+            label2.Margin = new Padding(5, 0, 5, 0);
             label2.Name = "label2";
-            label2.Size = new Size(336, 26);
+            label2.Size = new Size(529, 42);
             label2.TabIndex = 8;
             label2.Text = "Danh sách quản lý tài nguyên rừng";
             // 
             // button2
             // 
-            button2.Location = new Point(667, 238);
+            button2.Location = new Point(1084, 381);
+            button2.Margin = new Padding(5, 5, 5, 5);
             button2.Name = "button2";
-            button2.Size = new Size(115, 44);
+            button2.Size = new Size(187, 70);
             button2.TabIndex = 6;
             button2.Text = "Chỉnh sửa";
             button2.UseVisualStyleBackColor = true;
             // 
             // button1
             // 
-            button1.Location = new Point(667, 128);
+            button1.Location = new Point(1084, 205);
+            button1.Margin = new Padding(5, 5, 5, 5);
             button1.Name = "button1";
-            button1.Size = new Size(115, 44);
+            button1.Size = new Size(187, 70);
             button1.TabIndex = 7;
             button1.Text = "In";
             button1.UseVisualStyleBackColor = true;
@@ -67,33 +70,36 @@
             // dataGridView1
             // 
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(19, 128);
+            dataGridView1.Location = new Point(31, 205);
+            dataGridView1.Margin = new Padding(5, 5, 5, 5);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowHeadersWidth = 51;
             dataGridView1.RowTemplate.Height = 29;
-            dataGridView1.Size = new Size(617, 312);
+            dataGridView1.Size = new Size(1003, 499);
             dataGridView1.TabIndex = 5;
             // 
             // label1
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Times New Roman", 13.8F, FontStyle.Bold, GraphicsUnit.Point);
-            label1.Location = new Point(149, 11);
+            label1.Location = new Point(242, 18);
+            label1.Margin = new Padding(5, 0, 5, 0);
             label1.Name = "label1";
-            label1.Size = new Size(572, 25);
+            label1.Size = new Size(914, 42);
             label1.TabIndex = 4;
             label1.Text = "VĂN BẢN PHÁP LÝ: QUẢN LÝ TÀI NGUYÊN RỪNG";
             // 
             // QuanLyTaiNguyenRung
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(13F, 32F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(1300, 720);
             Controls.Add(label2);
             Controls.Add(button2);
             Controls.Add(button1);
             Controls.Add(dataGridView1);
             Controls.Add(label1);
+            Margin = new Padding(5, 5, 5, 5);
             Name = "QuanLyTaiNguyenRung";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "QUẢN LÝ TÀI NGUYÊN RỪNG";

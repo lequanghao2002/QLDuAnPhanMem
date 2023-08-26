@@ -42,12 +42,14 @@ partial class QuanLyTaiNguyenNuoc
         // 
         dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
         dataGridView1.Columns.AddRange(new DataGridViewColumn[] { TT, TenCongTrinh, ViTri, NguonNuoc, GiaTriDongChayToiThieu, LoaiHinhCongTrinh });
-        dataGridView1.Location = new Point(12, 12);
+        dataGridView1.Location = new Point(20, 19);
+        dataGridView1.Margin = new Padding(5, 5, 5, 5);
         dataGridView1.Name = "dataGridView1";
         dataGridView1.RowHeadersWidth = 51;
         dataGridView1.RowTemplate.Height = 29;
-        dataGridView1.Size = new Size(923, 682);
+        dataGridView1.Size = new Size(1500, 1091);
         dataGridView1.TabIndex = 0;
+        dataGridView1.CellContentClick += dataGridView1_CellContentClick;
         // 
         // TT
         // 
@@ -93,10 +95,11 @@ partial class QuanLyTaiNguyenNuoc
         // 
         // QuanLyTaiNguyenNuoc
         // 
-        AutoScaleDimensions = new SizeF(8F, 20F);
+        AutoScaleDimensions = new SizeF(13F, 32F);
         AutoScaleMode = AutoScaleMode.Font;
-        ClientSize = new Size(947, 706);
+        ClientSize = new Size(1539, 1130);
         Controls.Add(dataGridView1);
+        Margin = new Padding(5, 5, 5, 5);
         Name = "QuanLyTaiNguyenNuoc";
         Text = "Quản lý tài nguyên nước";
         ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();

@@ -422,6 +422,7 @@
             Controls.Add(label2);
             Name = "QLHS_KHBVMT_CT";
             Text = "QLHS_KHBVMT_CT";
+            Load += QLHS_KHBVMT_CT_Load;
             ResumeLayout(false);
             PerformLayout();
         }

@@ -10,17 +10,23 @@ using System.Windows.Forms;
 
 namespace QuanLyDAPM
 {
-    public partial class GBN : Form
+    public partial class GBN : Form, IThemeable
     {
         public GBN()
         {
             InitializeComponent();
         }
+        public void ApplyTheme(Color backgroundColor)
+        {
+            this.BackColor = backgroundColor;
+        }
+
 
         private void button2_Click(object sender, EventArgs e)
         {
             var temp = new PH();
             temp.Show();
         }
+
     }
 }
