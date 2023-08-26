@@ -48,14 +48,14 @@
             // 
             textBox1.Location = new Point(57, 12);
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(853, 27);
+            textBox1.Size = new Size(853, 39);
             textBox1.TabIndex = 0;
             // 
             // textBox2
             // 
             textBox2.Location = new Point(86, 45);
             textBox2.Name = "textBox2";
-            textBox2.Size = new Size(794, 27);
+            textBox2.Size = new Size(794, 39);
             textBox2.TabIndex = 0;
             // 
             // label1
@@ -63,7 +63,7 @@
             label1.AutoSize = true;
             label1.Location = new Point(407, 75);
             label1.Name = "label1";
-            label1.Size = new Size(159, 19);
+            label1.Size = new Size(243, 33);
             label1.TabIndex = 1;
             label1.Text = "----------oOo----------";
             // 
@@ -73,7 +73,7 @@
             label2.Font = new Font("Times New Roman", 16.2F, FontStyle.Bold, GraphicsUnit.Point);
             label2.Location = new Point(435, 247);
             label2.Name = "label2";
-            label2.Size = new Size(100, 32);
+            label2.Size = new Size(158, 51);
             label2.TabIndex = 2;
             label2.Text = "ĐỀ ÁN";
             // 
@@ -81,7 +81,7 @@
             // 
             textBox3.Location = new Point(120, 286);
             textBox3.Name = "textBox3";
-            textBox3.Size = new Size(740, 27);
+            textBox3.Size = new Size(740, 39);
             textBox3.TabIndex = 0;
             // 
             // label3
@@ -91,7 +91,7 @@
             label3.Font = new Font("Times New Roman", 12F, FontStyle.Bold, GraphicsUnit.Point);
             label3.Location = new Point(455, 326);
             label3.Name = "label3";
-            label3.Size = new Size(54, 25);
+            label3.Size = new Size(86, 38);
             label3.TabIndex = 3;
             label3.Text = "CỦA";
             // 
@@ -109,7 +109,7 @@
             label4.Font = new Font("Times New Roman", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
             label4.Location = new Point(120, 564);
             label4.Name = "label4";
-            label4.Size = new Size(72, 19);
+            label4.Size = new Size(115, 32);
             label4.TabIndex = 5;
             label4.Text = "Địa chỉ: ";
             // 
@@ -117,7 +117,7 @@
             // 
             textBox4.Location = new Point(198, 556);
             textBox4.Name = "textBox4";
-            textBox4.Size = new Size(662, 27);
+            textBox4.Size = new Size(662, 39);
             textBox4.TabIndex = 0;
             // 
             // richTextBox2
@@ -158,12 +158,12 @@
             // 
             textBox5.Location = new Point(302, 964);
             textBox5.Name = "textBox5";
-            textBox5.Size = new Size(341, 27);
+            textBox5.Size = new Size(341, 39);
             textBox5.TabIndex = 0;
             // 
             // DeAnBVMT
             // 
-            AutoScaleDimensions = new SizeF(9F, 19F);
+            AutoScaleDimensions = new SizeF(15F, 31F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(960, 1012);
             Controls.Add(button2);

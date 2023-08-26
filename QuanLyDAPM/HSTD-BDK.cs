@@ -10,12 +10,17 @@ using System.Windows.Forms;
 
 namespace QuanLyDAPM
 {
-    public partial class HSTD_BDK : Form
+    public partial class HSTD_BDK : Form, IThemeable
     {
         public HSTD_BDK()
         {
             InitializeComponent();
         }
+        public void ApplyTheme(Color backgroundColor)
+        {
+            this.BackColor = backgroundColor;
+        }
+
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
@@ -75,5 +80,6 @@ namespace QuanLyDAPM
         {
 
         }
+
     }
 }

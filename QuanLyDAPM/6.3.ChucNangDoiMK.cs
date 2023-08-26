@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace QuanLyDAPM
 {
-    public partial class DoiMK : Form
+    public partial class DoiMK : Form, IThemeable
     {
         public DoiMK()
         {
             InitializeComponent();
         }
+        public void ApplyTheme(Color backgroundColor)
+        {
+            this.BackColor = backgroundColor;
+        }
     }
+
 }

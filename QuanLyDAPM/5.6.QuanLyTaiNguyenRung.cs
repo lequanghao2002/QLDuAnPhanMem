@@ -10,11 +10,17 @@ using System.Windows.Forms;
 
 namespace QuanLyDAPM
 {
-    public partial class QuanLyTaiNguyenRung : Form
+    public partial class QuanLyTaiNguyenRung : Form, IThemeable
     {
         public QuanLyTaiNguyenRung()
         {
             InitializeComponent();
         }
+        public void ApplyTheme(Color backgroundColor)
+        {
+            this.BackColor = backgroundColor;
+        }
+
+
     }
 }

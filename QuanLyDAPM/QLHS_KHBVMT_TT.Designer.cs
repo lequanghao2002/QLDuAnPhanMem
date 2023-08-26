@@ -117,6 +117,7 @@
             textBox5.Name = "textBox5";
             textBox5.Size = new Size(1599, 208);
             textBox5.TabIndex = 135;
+            textBox5.TextChanged += textBox5_TextChanged;
             // 
             // label8
             // 

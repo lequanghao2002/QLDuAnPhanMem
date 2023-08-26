@@ -9,10 +9,16 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace QuanLyDAPM;
-public partial class HST_KHBVMT : Form
+public partial class HST_KHBVMT : Form, IThemeable
 {
     public HST_KHBVMT()
     {
         InitializeComponent();
     }
+    public void ApplyTheme(Color backgroundColor)
+    {
+        this.BackColor = backgroundColor;
+    }
+
+
 }

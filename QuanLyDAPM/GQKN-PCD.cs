@@ -10,14 +10,21 @@ using System.Windows.Forms;
 
 namespace QuanLyDAPM
 {
-    public partial class GQKN_PCD : Form
+    public partial class GQKN_PCD : Form, IThemeable
     {
         private ToolTip tt;
 
+    
         public GQKN_PCD()
         {
             InitializeComponent();
         }
+
+        public void ApplyTheme(Color backgroundColor)
+        {
+            this.BackColor = backgroundColor;
+        }
+
 
         private void GQKN_PCD_Load(object sender, EventArgs e)
         {
@@ -36,6 +43,11 @@ namespace QuanLyDAPM
         private void textBox1_Leave(object sender, EventArgs e)
         {
             tt.Dispose();
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

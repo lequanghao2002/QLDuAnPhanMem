@@ -10,11 +10,17 @@ using System.Windows.Forms;
 
 namespace QuanLyDAPM
 {
-    public partial class GQKN_BBKT : Form
+    public partial class GQKN_BBKT : Form, IThemeable
     {
         public GQKN_BBKT()
         {
             InitializeComponent();
         }
+        public void ApplyTheme(Color backgroundColor)
+        {
+            this.BackColor = backgroundColor;
+        }
+
+
     }
 }

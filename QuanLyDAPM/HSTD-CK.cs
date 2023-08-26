@@ -10,16 +10,22 @@ using System.Windows.Forms;
 
 namespace QuanLyDAPM
 {
-    public partial class HSTD_CKcs : Form
+    public partial class HSTD_CKcs : Form, IThemeable
     {
         public HSTD_CKcs()
         {
             InitializeComponent();
         }
+        public void ApplyTheme(Color backgroundColor)
+        {
+            this.BackColor = backgroundColor;
+        }
+
 
         private void HSTD_CKcs_Load(object sender, EventArgs e)
         {
 
         }
+
     }
 }
