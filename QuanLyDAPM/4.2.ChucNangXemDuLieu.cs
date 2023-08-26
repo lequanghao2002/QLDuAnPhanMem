@@ -36,6 +36,4 @@ public partial class _4 : Form, IThemeable
         textBox10.Text = TheQTMT_Nhap.ListData[4][1];
         textBox15.Text = TheQTMT_Nhap.ListData[4][2];
     }
-
-  
 }
