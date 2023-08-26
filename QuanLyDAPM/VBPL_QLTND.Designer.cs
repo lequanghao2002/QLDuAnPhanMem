@@ -436,6 +436,7 @@
             Controls.Add(label27);
             Controls.Add(textBox1);
             Name = "VBPL_QLTND";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "VBPL_QLTND";
             Load += VBPL_QLTND_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();

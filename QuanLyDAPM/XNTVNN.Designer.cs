@@ -153,7 +153,7 @@ partial class XNTVNN
         // textBox1
         // 
         textBox1.Location = new Point(20, 21);
-        textBox1.Margin = new Padding(5, 5, 5, 5);
+        textBox1.Margin = new Padding(5);
         textBox1.Name = "textBox1";
         textBox1.PlaceholderText = "TÊN CƠ QUAN CẤP PHÉP";
         textBox1.Size = new Size(527, 39);
@@ -173,7 +173,7 @@ partial class XNTVNN
         // textBox2
         // 
         textBox2.Location = new Point(117, 117);
-        textBox2.Margin = new Padding(5, 5, 5, 5);
+        textBox2.Margin = new Padding(5);
         textBox2.Name = "textBox2";
         textBox2.Size = new Size(244, 39);
         textBox2.TabIndex = 30;
@@ -211,7 +211,7 @@ partial class XNTVNN
         // textBox8
         // 
         textBox8.Location = new Point(1375, 123);
-        textBox8.Margin = new Padding(5, 5, 5, 5);
+        textBox8.Margin = new Padding(5);
         textBox8.Name = "textBox8";
         textBox8.Size = new Size(87, 39);
         textBox8.TabIndex = 83;
@@ -219,7 +219,7 @@ partial class XNTVNN
         // textBox9
         // 
         textBox9.Location = new Point(1211, 122);
-        textBox9.Margin = new Padding(5, 5, 5, 5);
+        textBox9.Margin = new Padding(5);
         textBox9.Name = "textBox9";
         textBox9.Size = new Size(61, 39);
         textBox9.TabIndex = 82;
@@ -227,7 +227,7 @@ partial class XNTVNN
         // textBox10
         // 
         textBox10.Location = new Point(1045, 122);
-        textBox10.Margin = new Padding(5, 5, 5, 5);
+        textBox10.Margin = new Padding(5);
         textBox10.Name = "textBox10";
         textBox10.Size = new Size(61, 39);
         textBox10.TabIndex = 81;
@@ -235,7 +235,7 @@ partial class XNTVNN
         // textBox11
         // 
         textBox11.Location = new Point(715, 123);
-        textBox11.Margin = new Padding(5, 5, 5, 5);
+        textBox11.Margin = new Padding(5);
         textBox11.Name = "textBox11";
         textBox11.Size = new Size(222, 39);
         textBox11.TabIndex = 80;
@@ -337,7 +337,7 @@ partial class XNTVNN
         // textBox3
         // 
         textBox3.Location = new Point(946, 630);
-        textBox3.Margin = new Padding(5, 5, 5, 5);
+        textBox3.Margin = new Padding(5);
         textBox3.Name = "textBox3";
         textBox3.Size = new Size(87, 39);
         textBox3.TabIndex = 96;
@@ -345,7 +345,7 @@ partial class XNTVNN
         // textBox4
         // 
         textBox4.Location = new Point(796, 629);
-        textBox4.Margin = new Padding(5, 5, 5, 5);
+        textBox4.Margin = new Padding(5);
         textBox4.Name = "textBox4";
         textBox4.Size = new Size(61, 39);
         textBox4.TabIndex = 95;
@@ -353,7 +353,7 @@ partial class XNTVNN
         // textBox5
         // 
         textBox5.Location = new Point(639, 629);
-        textBox5.Margin = new Padding(5, 5, 5, 5);
+        textBox5.Margin = new Padding(5);
         textBox5.Name = "textBox5";
         textBox5.Size = new Size(61, 39);
         textBox5.TabIndex = 94;
@@ -361,7 +361,7 @@ partial class XNTVNN
         // textBox6
         // 
         textBox6.Location = new Point(320, 630);
-        textBox6.Margin = new Padding(5, 5, 5, 5);
+        textBox6.Margin = new Padding(5);
         textBox6.Name = "textBox6";
         textBox6.Size = new Size(222, 39);
         textBox6.TabIndex = 93;
@@ -390,7 +390,7 @@ partial class XNTVNN
         // textBox7
         // 
         textBox7.Location = new Point(164, 755);
-        textBox7.Margin = new Padding(5, 5, 5, 5);
+        textBox7.Margin = new Padding(5);
         textBox7.Name = "textBox7";
         textBox7.Size = new Size(1298, 39);
         textBox7.TabIndex = 103;
@@ -420,7 +420,7 @@ partial class XNTVNN
         // textBox12
         // 
         textBox12.Location = new Point(895, 803);
-        textBox12.Margin = new Padding(5, 5, 5, 5);
+        textBox12.Margin = new Padding(5);
         textBox12.Name = "textBox12";
         textBox12.PlaceholderText = "Tên tổ chức/cá nhân đề nghị cấp phép";
         textBox12.Size = new Size(566, 39);
@@ -462,7 +462,7 @@ partial class XNTVNN
         // textBox13
         // 
         textBox13.Location = new Point(452, 838);
-        textBox13.Margin = new Padding(5, 5, 5, 5);
+        textBox13.Margin = new Padding(5);
         textBox13.Name = "textBox13";
         textBox13.Size = new Size(87, 39);
         textBox13.TabIndex = 108;
@@ -470,7 +470,7 @@ partial class XNTVNN
         // textBox14
         // 
         textBox14.Location = new Point(288, 838);
-        textBox14.Margin = new Padding(5, 5, 5, 5);
+        textBox14.Margin = new Padding(5);
         textBox14.Name = "textBox14";
         textBox14.Size = new Size(61, 39);
         textBox14.TabIndex = 107;
@@ -478,7 +478,7 @@ partial class XNTVNN
         // textBox15
         // 
         textBox15.Location = new Point(106, 838);
-        textBox15.Margin = new Padding(5, 5, 5, 5);
+        textBox15.Margin = new Padding(5);
         textBox15.Name = "textBox15";
         textBox15.Size = new Size(61, 39);
         textBox15.TabIndex = 106;
@@ -539,7 +539,7 @@ partial class XNTVNN
         // textBox16
         // 
         textBox16.Location = new Point(530, 1136);
-        textBox16.Margin = new Padding(5, 5, 5, 5);
+        textBox16.Margin = new Padding(5);
         textBox16.Name = "textBox16";
         textBox16.PlaceholderText = "(1)";
         textBox16.Size = new Size(932, 39);
@@ -570,7 +570,7 @@ partial class XNTVNN
         // textBox17
         // 
         textBox17.Location = new Point(388, 1224);
-        textBox17.Margin = new Padding(5, 5, 5, 5);
+        textBox17.Margin = new Padding(5);
         textBox17.Name = "textBox17";
         textBox17.Size = new Size(1073, 39);
         textBox17.TabIndex = 120;
@@ -578,7 +578,7 @@ partial class XNTVNN
         // textBox18
         // 
         textBox18.Location = new Point(362, 1277);
-        textBox18.Margin = new Padding(5, 5, 5, 5);
+        textBox18.Margin = new Padding(5);
         textBox18.Name = "textBox18";
         textBox18.Size = new Size(1099, 39);
         textBox18.TabIndex = 122;
@@ -597,7 +597,7 @@ partial class XNTVNN
         // textBox19
         // 
         textBox19.Location = new Point(494, 1330);
-        textBox19.Margin = new Padding(5, 5, 5, 5);
+        textBox19.Margin = new Padding(5);
         textBox19.Name = "textBox19";
         textBox19.Size = new Size(968, 39);
         textBox19.TabIndex = 124;
@@ -616,7 +616,7 @@ partial class XNTVNN
         // textBox20
         // 
         textBox20.Location = new Point(320, 1382);
-        textBox20.Margin = new Padding(5, 5, 5, 5);
+        textBox20.Margin = new Padding(5);
         textBox20.Name = "textBox20";
         textBox20.Size = new Size(1142, 39);
         textBox20.TabIndex = 126;
@@ -646,7 +646,7 @@ partial class XNTVNN
         // textBox21
         // 
         textBox21.Location = new Point(356, 1477);
-        textBox21.Margin = new Padding(5, 5, 5, 5);
+        textBox21.Margin = new Padding(5);
         textBox21.Name = "textBox21";
         textBox21.Size = new Size(1106, 39);
         textBox21.TabIndex = 129;
@@ -665,7 +665,7 @@ partial class XNTVNN
         // textBox22
         // 
         textBox22.Location = new Point(288, 1530);
-        textBox22.Margin = new Padding(5, 5, 5, 5);
+        textBox22.Margin = new Padding(5);
         textBox22.Name = "textBox22";
         textBox22.Size = new Size(1174, 39);
         textBox22.TabIndex = 131;
@@ -695,7 +695,7 @@ partial class XNTVNN
         // textBox23
         // 
         textBox23.Location = new Point(436, 1582);
-        textBox23.Margin = new Padding(5, 5, 5, 5);
+        textBox23.Margin = new Padding(5);
         textBox23.Name = "textBox23";
         textBox23.PlaceholderText = "(2)";
         textBox23.Size = new Size(1026, 39);
@@ -715,7 +715,7 @@ partial class XNTVNN
         // textBox24
         // 
         textBox24.Location = new Point(362, 1635);
-        textBox24.Margin = new Padding(5, 5, 5, 5);
+        textBox24.Margin = new Padding(5);
         textBox24.Name = "textBox24";
         textBox24.PlaceholderText = "(3)";
         textBox24.Size = new Size(1099, 39);
@@ -735,7 +735,7 @@ partial class XNTVNN
         // textBox25
         // 
         textBox25.Location = new Point(520, 1688);
-        textBox25.Margin = new Padding(5, 5, 5, 5);
+        textBox25.Margin = new Padding(5);
         textBox25.Name = "textBox25";
         textBox25.Size = new Size(142, 39);
         textBox25.TabIndex = 136;
@@ -765,7 +765,7 @@ partial class XNTVNN
         // textBox26
         // 
         textBox26.Location = new Point(864, 1688);
-        textBox26.Margin = new Padding(5, 5, 5, 5);
+        textBox26.Margin = new Padding(5);
         textBox26.Name = "textBox26";
         textBox26.Size = new Size(142, 39);
         textBox26.TabIndex = 139;
@@ -784,7 +784,7 @@ partial class XNTVNN
         // textBox27
         // 
         textBox27.Location = new Point(385, 1741);
-        textBox27.Margin = new Padding(5, 5, 5, 5);
+        textBox27.Margin = new Padding(5);
         textBox27.Name = "textBox27";
         textBox27.PlaceholderText = "(4)";
         textBox27.Size = new Size(1076, 39);
@@ -804,7 +804,7 @@ partial class XNTVNN
         // textBox28
         // 
         textBox28.Location = new Point(429, 1794);
-        textBox28.Margin = new Padding(5, 5, 5, 5);
+        textBox28.Margin = new Padding(5);
         textBox28.Name = "textBox28";
         textBox28.Size = new Size(110, 39);
         textBox28.TabIndex = 144;
@@ -834,7 +834,7 @@ partial class XNTVNN
         // textBox29
         // 
         textBox29.Location = new Point(408, 1840);
-        textBox29.Margin = new Padding(5, 5, 5, 5);
+        textBox29.Margin = new Padding(5);
         textBox29.Name = "textBox29";
         textBox29.PlaceholderText = "Tên tổ chức/cá nhân được cấp giấy phép";
         textBox29.Size = new Size(1054, 39);
@@ -865,7 +865,7 @@ partial class XNTVNN
         // textBox30
         // 
         textBox30.Location = new Point(796, 1925);
-        textBox30.Margin = new Padding(5, 5, 5, 5);
+        textBox30.Margin = new Padding(5);
         textBox30.Name = "textBox30";
         textBox30.PlaceholderText = "(5)";
         textBox30.Size = new Size(665, 39);
@@ -906,7 +906,7 @@ partial class XNTVNN
         // textBox31
         // 
         textBox31.Location = new Point(172, 2122);
-        textBox31.Margin = new Padding(5, 5, 5, 5);
+        textBox31.Margin = new Padding(5);
         textBox31.Name = "textBox31";
         textBox31.PlaceholderText = "Tên tổ chức/cá nhân được cấp giấy phép";
         textBox31.Size = new Size(1289, 39);
@@ -935,7 +935,7 @@ partial class XNTVNN
         // textBox32
         // 
         textBox32.Location = new Point(916, 2494);
-        textBox32.Margin = new Padding(5, 5, 5, 5);
+        textBox32.Margin = new Padding(5);
         textBox32.Name = "textBox32";
         textBox32.Size = new Size(410, 39);
         textBox32.TabIndex = 162;
@@ -944,7 +944,7 @@ partial class XNTVNN
         // 
         button2.Font = new Font("Segoe UI", 10.2F, FontStyle.Regular, GraphicsUnit.Point);
         button2.Location = new Point(1141, 2547);
-        button2.Margin = new Padding(5, 5, 5, 5);
+        button2.Margin = new Padding(5);
         button2.Name = "button2";
         button2.Size = new Size(314, 93);
         button2.TabIndex = 161;
@@ -955,7 +955,7 @@ partial class XNTVNN
         // 
         button1.Font = new Font("Segoe UI", 10.2F, FontStyle.Regular, GraphicsUnit.Point);
         button1.Location = new Point(801, 2547);
-        button1.Margin = new Padding(5, 5, 5, 5);
+        button1.Margin = new Padding(5);
         button1.Name = "button1";
         button1.Size = new Size(314, 93);
         button1.TabIndex = 160;
@@ -998,7 +998,7 @@ partial class XNTVNN
         // textBox33
         // 
         textBox33.Location = new Point(26, 2442);
-        textBox33.Margin = new Padding(5, 5, 5, 5);
+        textBox33.Margin = new Padding(5);
         textBox33.Name = "textBox33";
         textBox33.PlaceholderText = "Tên chủ giấy phép";
         textBox33.Size = new Size(513, 39);
@@ -1029,7 +1029,7 @@ partial class XNTVNN
         // textBox34
         // 
         textBox34.Location = new Point(335, 2539);
-        textBox34.Margin = new Padding(5, 5, 5, 5);
+        textBox34.Margin = new Padding(5);
         textBox34.Name = "textBox34";
         textBox34.PlaceholderText = "trường hợp giấy phép do Bộ TN&MT cấp";
         textBox34.Size = new Size(204, 39);
@@ -1038,7 +1038,7 @@ partial class XNTVNN
         // textBox35
         // 
         textBox35.Location = new Point(351, 2490);
-        textBox35.Margin = new Padding(5, 5, 5, 5);
+        textBox35.Margin = new Padding(5);
         textBox35.Name = "textBox35";
         textBox35.PlaceholderText = "trường hợp giấy phép do UBND tỉnh/thành phố cấp";
         textBox35.Size = new Size(188, 39);
@@ -1047,7 +1047,7 @@ partial class XNTVNN
         // textBox36
         // 
         textBox36.Location = new Point(309, 2589);
-        textBox36.Margin = new Padding(5, 5, 5, 5);
+        textBox36.Margin = new Padding(5);
         textBox36.Name = "textBox36";
         textBox36.Size = new Size(230, 39);
         textBox36.TabIndex = 170;
@@ -1187,8 +1187,9 @@ partial class XNTVNN
         Controls.Add(label12);
         Controls.Add(label11);
         Controls.Add(textBox1);
-        Margin = new Padding(5, 5, 5, 5);
+        Margin = new Padding(5);
         Name = "XNTVNN";
+        StartPosition = FormStartPosition.CenterScreen;
         Text = "XNTVNN";
         ResumeLayout(false);
         PerformLayout();

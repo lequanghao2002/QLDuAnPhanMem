@@ -570,6 +570,7 @@
             Controls.Add(label11);
             Margin = new Padding(5);
             Name = "GQKN_PCD";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "GQKN_PCD";
             Load += GQKN_PCD_Load;
             ResumeLayout(false);

@@ -206,6 +206,7 @@
             Controls.Add(label5);
             Controls.Add(label2);
             Name = "HSTD_KHBVMT_TDMT";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "HSTD_KHBVMT_TDMT";
             ResumeLayout(false);
             PerformLayout();

@@ -400,6 +400,7 @@
             Controls.Add(label12);
             Controls.Add(label11);
             Name = "HSTD_KHBVMT";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "HSTD_KHBVMT";
             ResumeLayout(false);
             PerformLayout();

@@ -596,6 +596,7 @@
             Controls.Add(label2);
             Controls.Add(label1);
             Name = "ĐTM_PL";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "ĐTM_PL";
             ResumeLayout(false);
             PerformLayout();

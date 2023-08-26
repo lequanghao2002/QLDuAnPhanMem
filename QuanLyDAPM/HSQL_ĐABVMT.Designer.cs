@@ -316,6 +316,7 @@
             Controls.Add(textBox10);
             Controls.Add(label6);
             Name = "HSQL_ĐABVMT";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "HSQL_ĐABVMT";
             panel1.ResumeLayout(false);
             panel1.PerformLayout();

@@ -177,7 +177,7 @@ partial class KTNDD
         // textBox1
         // 
         textBox1.Location = new Point(395, 421);
-        textBox1.Margin = new Padding(5, 5, 5, 5);
+        textBox1.Margin = new Padding(5);
         textBox1.Name = "textBox1";
         textBox1.Size = new Size(1151, 39);
         textBox1.TabIndex = 55;
@@ -206,7 +206,7 @@ partial class KTNDD
         // textBox2
         // 
         textBox2.Location = new Point(306, 563);
-        textBox2.Margin = new Padding(5, 5, 5, 5);
+        textBox2.Margin = new Padding(5);
         textBox2.Name = "textBox2";
         textBox2.Size = new Size(1241, 39);
         textBox2.TabIndex = 58;
@@ -225,7 +225,7 @@ partial class KTNDD
         // textBox3
         // 
         textBox3.Location = new Point(523, 616);
-        textBox3.Margin = new Padding(5, 5, 5, 5);
+        textBox3.Margin = new Padding(5);
         textBox3.Name = "textBox3";
         textBox3.Size = new Size(1023, 39);
         textBox3.TabIndex = 60;
@@ -233,7 +233,7 @@ partial class KTNDD
         // textBox4
         // 
         textBox4.Location = new Point(333, 717);
-        textBox4.Margin = new Padding(5, 5, 5, 5);
+        textBox4.Margin = new Padding(5);
         textBox4.Name = "textBox4";
         textBox4.Size = new Size(1213, 39);
         textBox4.TabIndex = 62;
@@ -263,7 +263,7 @@ partial class KTNDD
         // textBox5
         // 
         textBox5.Location = new Point(382, 814);
-        textBox5.Margin = new Padding(5, 5, 5, 5);
+        textBox5.Margin = new Padding(5);
         textBox5.Name = "textBox5";
         textBox5.Size = new Size(1111, 39);
         textBox5.TabIndex = 65;
@@ -302,7 +302,7 @@ partial class KTNDD
         // textBox6
         // 
         textBox6.Location = new Point(548, 867);
-        textBox6.Margin = new Padding(5, 5, 5, 5);
+        textBox6.Margin = new Padding(5);
         textBox6.Name = "textBox6";
         textBox6.Size = new Size(815, 39);
         textBox6.TabIndex = 68;
@@ -321,7 +321,7 @@ partial class KTNDD
         // textBox7
         // 
         textBox7.Location = new Point(587, 920);
-        textBox7.Margin = new Padding(5, 5, 5, 5);
+        textBox7.Margin = new Padding(5);
         textBox7.Name = "textBox7";
         textBox7.Size = new Size(960, 39);
         textBox7.TabIndex = 71;
@@ -380,7 +380,7 @@ partial class KTNDD
         // textBox8
         // 
         textBox8.Location = new Point(1391, 1006);
-        textBox8.Margin = new Padding(5, 5, 5, 5);
+        textBox8.Margin = new Padding(5);
         textBox8.Name = "textBox8";
         textBox8.Size = new Size(87, 39);
         textBox8.TabIndex = 76;
@@ -388,7 +388,7 @@ partial class KTNDD
         // textBox9
         // 
         textBox9.Location = new Point(1227, 1005);
-        textBox9.Margin = new Padding(5, 5, 5, 5);
+        textBox9.Margin = new Padding(5);
         textBox9.Name = "textBox9";
         textBox9.Size = new Size(61, 39);
         textBox9.TabIndex = 75;
@@ -396,7 +396,7 @@ partial class KTNDD
         // textBox10
         // 
         textBox10.Location = new Point(1061, 1005);
-        textBox10.Margin = new Padding(5, 5, 5, 5);
+        textBox10.Margin = new Padding(5);
         textBox10.Name = "textBox10";
         textBox10.Size = new Size(61, 39);
         textBox10.TabIndex = 74;
@@ -404,7 +404,7 @@ partial class KTNDD
         // textBox11
         // 
         textBox11.Location = new Point(731, 1006);
-        textBox11.Margin = new Padding(5, 5, 5, 5);
+        textBox11.Margin = new Padding(5);
         textBox11.Name = "textBox11";
         textBox11.Size = new Size(222, 39);
         textBox11.TabIndex = 73;
@@ -436,7 +436,7 @@ partial class KTNDD
         // 
         button1.Font = new Font("Segoe UI", 10.2F, FontStyle.Regular, GraphicsUnit.Point);
         button1.Location = new Point(811, 1214);
-        button1.Margin = new Padding(5, 5, 5, 5);
+        button1.Margin = new Padding(5);
         button1.Name = "button1";
         button1.Size = new Size(314, 93);
         button1.TabIndex = 82;
@@ -447,7 +447,7 @@ partial class KTNDD
         // 
         button2.Font = new Font("Segoe UI", 10.2F, FontStyle.Regular, GraphicsUnit.Point);
         button2.Location = new Point(1150, 1214);
-        button2.Margin = new Padding(5, 5, 5, 5);
+        button2.Margin = new Padding(5);
         button2.Name = "button2";
         button2.Size = new Size(314, 93);
         button2.TabIndex = 83;
@@ -457,7 +457,7 @@ partial class KTNDD
         // textBox12
         // 
         textBox12.Location = new Point(926, 1162);
-        textBox12.Margin = new Padding(5, 5, 5, 5);
+        textBox12.Margin = new Padding(5);
         textBox12.Name = "textBox12";
         textBox12.Size = new Size(410, 39);
         textBox12.TabIndex = 84;
@@ -465,7 +465,7 @@ partial class KTNDD
         // textBox13
         // 
         textBox13.Location = new Point(596, 1469);
-        textBox13.Margin = new Padding(5, 5, 5, 5);
+        textBox13.Margin = new Padding(5);
         textBox13.Name = "textBox13";
         textBox13.Size = new Size(410, 39);
         textBox13.TabIndex = 87;
@@ -474,7 +474,7 @@ partial class KTNDD
         // 
         button3.Font = new Font("Segoe UI", 10.2F, FontStyle.Regular, GraphicsUnit.Point);
         button3.Location = new Point(821, 1522);
-        button3.Margin = new Padding(5, 5, 5, 5);
+        button3.Margin = new Padding(5);
         button3.Name = "button3";
         button3.Size = new Size(314, 93);
         button3.TabIndex = 86;
@@ -485,7 +485,7 @@ partial class KTNDD
         // 
         button4.Font = new Font("Segoe UI", 10.2F, FontStyle.Regular, GraphicsUnit.Point);
         button4.Location = new Point(481, 1522);
-        button4.Margin = new Padding(5, 5, 5, 5);
+        button4.Margin = new Padding(5);
         button4.Name = "button4";
         button4.Size = new Size(314, 93);
         button4.TabIndex = 85;
@@ -563,8 +563,9 @@ partial class KTNDD
         Controls.Add(label1);
         Controls.Add(label5);
         Controls.Add(label4);
-        Margin = new Padding(5, 5, 5, 5);
+        Margin = new Padding(5);
         Name = "KTNDD";
+        StartPosition = FormStartPosition.CenterScreen;
         Text = "KTNDD";
         ResumeLayout(false);
         PerformLayout();

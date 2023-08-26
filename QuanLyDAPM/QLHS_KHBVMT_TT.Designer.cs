@@ -156,6 +156,7 @@
             Controls.Add(textBox5);
             Controls.Add(label8);
             Name = "QLHS_KHBVMT_TT";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "QLHS_KHBVMT_TT";
             ResumeLayout(false);
             PerformLayout();

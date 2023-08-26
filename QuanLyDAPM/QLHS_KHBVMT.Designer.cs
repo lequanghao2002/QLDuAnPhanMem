@@ -272,6 +272,7 @@
             Controls.Add(label2);
             Controls.Add(textBox1);
             Name = "QLHS_KHBVMT";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "QLHS_KHBVMT";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();

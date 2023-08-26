@@ -19,7 +19,8 @@
 
         private void bảnĐăngKýTCMTToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            var temp = new HuongDanSuDung();
+            temp.Show();
         }
 
         private void banToolStripMenuItem_Click(object sender, EventArgs e)

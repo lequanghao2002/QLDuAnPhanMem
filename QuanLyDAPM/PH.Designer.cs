@@ -574,6 +574,7 @@
             Controls.Add(label27);
             Controls.Add(textBox1);
             Name = "PH";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "PH";
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ResumeLayout(false);
