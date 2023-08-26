@@ -56,7 +56,7 @@ partial class _4
         // textBox15
         // 
         textBox15.Location = new Point(1311, 656);
-        textBox15.Margin = new Padding(5, 5, 5, 5);
+        textBox15.Margin = new Padding(5);
         textBox15.Name = "textBox15";
         textBox15.ReadOnly = true;
         textBox15.Size = new Size(301, 39);
@@ -65,7 +65,7 @@ partial class _4
         // textBox10
         // 
         textBox10.Location = new Point(759, 656);
-        textBox10.Margin = new Padding(5, 5, 5, 5);
+        textBox10.Margin = new Padding(5);
         textBox10.Name = "textBox10";
         textBox10.ReadOnly = true;
         textBox10.Size = new Size(472, 39);
@@ -74,7 +74,7 @@ partial class _4
         // textBox5
         // 
         textBox5.Location = new Point(385, 656);
-        textBox5.Margin = new Padding(5, 5, 5, 5);
+        textBox5.Margin = new Padding(5);
         textBox5.Name = "textBox5";
         textBox5.ReadOnly = true;
         textBox5.Size = new Size(301, 39);
@@ -83,7 +83,7 @@ partial class _4
         // textBox14
         // 
         textBox14.Location = new Point(1311, 515);
-        textBox14.Margin = new Padding(5, 5, 5, 5);
+        textBox14.Margin = new Padding(5);
         textBox14.Name = "textBox14";
         textBox14.ReadOnly = true;
         textBox14.Size = new Size(301, 39);
@@ -92,7 +92,7 @@ partial class _4
         // textBox9
         // 
         textBox9.Location = new Point(759, 515);
-        textBox9.Margin = new Padding(5, 5, 5, 5);
+        textBox9.Margin = new Padding(5);
         textBox9.Name = "textBox9";
         textBox9.ReadOnly = true;
         textBox9.Size = new Size(472, 39);
@@ -101,7 +101,7 @@ partial class _4
         // textBox4
         // 
         textBox4.Location = new Point(385, 515);
-        textBox4.Margin = new Padding(5, 5, 5, 5);
+        textBox4.Margin = new Padding(5);
         textBox4.Name = "textBox4";
         textBox4.ReadOnly = true;
         textBox4.Size = new Size(301, 39);
@@ -110,7 +110,7 @@ partial class _4
         // textBox13
         // 
         textBox13.Location = new Point(1311, 374);
-        textBox13.Margin = new Padding(5, 5, 5, 5);
+        textBox13.Margin = new Padding(5);
         textBox13.Name = "textBox13";
         textBox13.ReadOnly = true;
         textBox13.Size = new Size(301, 39);
@@ -119,7 +119,7 @@ partial class _4
         // textBox8
         // 
         textBox8.Location = new Point(759, 374);
-        textBox8.Margin = new Padding(5, 5, 5, 5);
+        textBox8.Margin = new Padding(5);
         textBox8.Name = "textBox8";
         textBox8.ReadOnly = true;
         textBox8.Size = new Size(472, 39);
@@ -128,7 +128,7 @@ partial class _4
         // textBox3
         // 
         textBox3.Location = new Point(385, 374);
-        textBox3.Margin = new Padding(5, 5, 5, 5);
+        textBox3.Margin = new Padding(5);
         textBox3.Name = "textBox3";
         textBox3.ReadOnly = true;
         textBox3.Size = new Size(301, 39);
@@ -137,7 +137,7 @@ partial class _4
         // textBox12
         // 
         textBox12.Location = new Point(1311, 240);
-        textBox12.Margin = new Padding(5, 5, 5, 5);
+        textBox12.Margin = new Padding(5);
         textBox12.Name = "textBox12";
         textBox12.ReadOnly = true;
         textBox12.Size = new Size(301, 39);
@@ -146,7 +146,7 @@ partial class _4
         // textBox7
         // 
         textBox7.Location = new Point(759, 240);
-        textBox7.Margin = new Padding(5, 5, 5, 5);
+        textBox7.Margin = new Padding(5);
         textBox7.Name = "textBox7";
         textBox7.ReadOnly = true;
         textBox7.Size = new Size(472, 39);
@@ -155,7 +155,7 @@ partial class _4
         // textBox2
         // 
         textBox2.Location = new Point(385, 240);
-        textBox2.Margin = new Padding(5, 5, 5, 5);
+        textBox2.Margin = new Padding(5);
         textBox2.Name = "textBox2";
         textBox2.ReadOnly = true;
         textBox2.Size = new Size(301, 39);
@@ -164,7 +164,7 @@ partial class _4
         // textBox11
         // 
         textBox11.Location = new Point(1311, 110);
-        textBox11.Margin = new Padding(5, 5, 5, 5);
+        textBox11.Margin = new Padding(5);
         textBox11.Name = "textBox11";
         textBox11.ReadOnly = true;
         textBox11.Size = new Size(301, 39);
@@ -173,7 +173,7 @@ partial class _4
         // textBox6
         // 
         textBox6.Location = new Point(759, 110);
-        textBox6.Margin = new Padding(5, 5, 5, 5);
+        textBox6.Margin = new Padding(5);
         textBox6.Name = "textBox6";
         textBox6.ReadOnly = true;
         textBox6.Size = new Size(472, 39);
@@ -182,7 +182,7 @@ partial class _4
         // textBox1
         // 
         textBox1.Location = new Point(385, 110);
-        textBox1.Margin = new Padding(5, 5, 5, 5);
+        textBox1.Margin = new Padding(5);
         textBox1.Name = "textBox1";
         textBox1.ReadOnly = true;
         textBox1.Size = new Size(301, 39);
@@ -303,8 +303,9 @@ partial class _4
         Controls.Add(label3);
         Controls.Add(label2);
         Controls.Add(label1);
-        Margin = new Padding(5, 5, 5, 5);
+        Margin = new Padding(5);
         Name = "_4";
+        StartPosition = FormStartPosition.CenterScreen;
         Text = "Xem dữ liệu";
         Load += _4_Load;
         ResumeLayout(false);

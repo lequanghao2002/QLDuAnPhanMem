@@ -93,6 +93,7 @@
             Controls.Add(comboBox1);
             Font = new Font("Times New Roman", 10.2F, FontStyle.Regular, GraphicsUnit.Point);
             Name = "ThongKe";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "2.2 CHỨC NĂNG THỐNG KÊ";
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);

@@ -83,7 +83,7 @@
             // textBox2
             // 
             textBox2.Location = new Point(138, 98);
-            textBox2.Margin = new Padding(5, 5, 5, 5);
+            textBox2.Margin = new Padding(5);
             textBox2.Name = "textBox2";
             textBox2.Size = new Size(322, 39);
             textBox2.TabIndex = 34;
@@ -91,7 +91,7 @@
             // textBox1
             // 
             textBox1.Location = new Point(104, 45);
-            textBox1.Margin = new Padding(5, 5, 5, 5);
+            textBox1.Margin = new Padding(5);
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(400, 39);
             textBox1.TabIndex = 33;
@@ -121,7 +121,7 @@
             // textBox3
             // 
             textBox3.Location = new Point(162, 173);
-            textBox3.Margin = new Padding(5, 5, 5, 5);
+            textBox3.Margin = new Padding(5);
             textBox3.Name = "textBox3";
             textBox3.Size = new Size(322, 39);
             textBox3.TabIndex = 38;
@@ -169,7 +169,7 @@
             // textBox6
             // 
             textBox6.Location = new Point(1651, 170);
-            textBox6.Margin = new Padding(5, 5, 5, 5);
+            textBox6.Margin = new Padding(5);
             textBox6.Name = "textBox6";
             textBox6.Size = new Size(87, 39);
             textBox6.TabIndex = 42;
@@ -177,7 +177,7 @@
             // textBox5
             // 
             textBox5.Location = new Point(1487, 168);
-            textBox5.Margin = new Padding(5, 5, 5, 5);
+            textBox5.Margin = new Padding(5);
             textBox5.Name = "textBox5";
             textBox5.Size = new Size(61, 39);
             textBox5.TabIndex = 41;
@@ -185,7 +185,7 @@
             // textBox4
             // 
             textBox4.Location = new Point(1321, 168);
-            textBox4.Margin = new Padding(5, 5, 5, 5);
+            textBox4.Margin = new Padding(5);
             textBox4.Name = "textBox4";
             textBox4.Size = new Size(61, 39);
             textBox4.TabIndex = 40;
@@ -193,7 +193,7 @@
             // textBox7
             // 
             textBox7.Location = new Point(1016, 170);
-            textBox7.Margin = new Padding(5, 5, 5, 5);
+            textBox7.Margin = new Padding(5);
             textBox7.Name = "textBox7";
             textBox7.Size = new Size(197, 39);
             textBox7.TabIndex = 39;
@@ -223,7 +223,7 @@
             // textBox8
             // 
             textBox8.Location = new Point(660, 426);
-            textBox8.Margin = new Padding(5, 5, 5, 5);
+            textBox8.Margin = new Padding(5);
             textBox8.Multiline = true;
             textBox8.Name = "textBox8";
             textBox8.Size = new Size(612, 63);
@@ -242,7 +242,7 @@
             // textBox9
             // 
             textBox9.Location = new Point(400, 498);
-            textBox9.Margin = new Padding(5, 5, 5, 5);
+            textBox9.Margin = new Padding(5);
             textBox9.Multiline = true;
             textBox9.Name = "textBox9";
             textBox9.Size = new Size(1340, 63);
@@ -271,7 +271,7 @@
             // textBox10
             // 
             textBox10.Location = new Point(214, 571);
-            textBox10.Margin = new Padding(5, 5, 5, 5);
+            textBox10.Margin = new Padding(5);
             textBox10.Name = "textBox10";
             textBox10.Size = new Size(197, 39);
             textBox10.TabIndex = 53;
@@ -289,7 +289,7 @@
             // textBox11
             // 
             textBox11.Location = new Point(546, 571);
-            textBox11.Margin = new Padding(5, 5, 5, 5);
+            textBox11.Margin = new Padding(5);
             textBox11.Name = "textBox11";
             textBox11.Size = new Size(197, 39);
             textBox11.TabIndex = 55;
@@ -297,7 +297,7 @@
             // textBox12
             // 
             textBox12.Location = new Point(752, 571);
-            textBox12.Margin = new Padding(5, 5, 5, 5);
+            textBox12.Margin = new Padding(5);
             textBox12.Name = "textBox12";
             textBox12.Size = new Size(248, 39);
             textBox12.TabIndex = 56;
@@ -315,7 +315,7 @@
             // textBox13
             // 
             textBox13.Location = new Point(1516, 571);
-            textBox13.Margin = new Padding(5, 5, 5, 5);
+            textBox13.Margin = new Padding(5);
             textBox13.Name = "textBox13";
             textBox13.Size = new Size(197, 39);
             textBox13.TabIndex = 58;
@@ -333,7 +333,7 @@
             // textBox14
             // 
             textBox14.Location = new Point(192, 626);
-            textBox14.Margin = new Padding(5, 5, 5, 5);
+            textBox14.Margin = new Padding(5);
             textBox14.Name = "textBox14";
             textBox14.Size = new Size(248, 39);
             textBox14.TabIndex = 60;
@@ -361,7 +361,7 @@
             // textBox15
             // 
             textBox15.Location = new Point(422, 718);
-            textBox15.Margin = new Padding(5, 5, 5, 5);
+            textBox15.Margin = new Padding(5);
             textBox15.Name = "textBox15";
             textBox15.Size = new Size(248, 39);
             textBox15.TabIndex = 63;
@@ -389,7 +389,7 @@
             // textBox16
             // 
             textBox16.Location = new Point(106, 822);
-            textBox16.Margin = new Padding(5, 5, 5, 5);
+            textBox16.Margin = new Padding(5);
             textBox16.Multiline = true;
             textBox16.Name = "textBox16";
             textBox16.Size = new Size(1632, 63);
@@ -398,7 +398,7 @@
             // textBox17
             // 
             textBox17.Location = new Point(104, 958);
-            textBox17.Margin = new Padding(5, 5, 5, 5);
+            textBox17.Margin = new Padding(5);
             textBox17.Multiline = true;
             textBox17.Name = "textBox17";
             textBox17.Size = new Size(1632, 63);
@@ -417,7 +417,7 @@
             // textBox18
             // 
             textBox18.Location = new Point(104, 1090);
-            textBox18.Margin = new Padding(5, 5, 5, 5);
+            textBox18.Margin = new Padding(5);
             textBox18.Multiline = true;
             textBox18.Name = "textBox18";
             textBox18.Size = new Size(1632, 63);
@@ -436,7 +436,7 @@
             // textBox19
             // 
             textBox19.Location = new Point(104, 1208);
-            textBox19.Margin = new Padding(5, 5, 5, 5);
+            textBox19.Margin = new Padding(5);
             textBox19.Multiline = true;
             textBox19.Name = "textBox19";
             textBox19.Size = new Size(1632, 63);
@@ -466,7 +466,7 @@
             // textBox20
             // 
             textBox20.Location = new Point(837, 1294);
-            textBox20.Margin = new Padding(5, 5, 5, 5);
+            textBox20.Margin = new Padding(5);
             textBox20.Name = "textBox20";
             textBox20.Size = new Size(248, 39);
             textBox20.TabIndex = 74;
@@ -514,7 +514,7 @@
             // textBox21
             // 
             textBox21.Location = new Point(1242, 1387);
-            textBox21.Margin = new Padding(5, 5, 5, 5);
+            textBox21.Margin = new Padding(5);
             textBox21.Name = "textBox21";
             textBox21.Size = new Size(261, 39);
             textBox21.TabIndex = 80;
@@ -593,6 +593,7 @@
             Controls.Add(textBox2);
             Controls.Add(textBox1);
             Name = "GQKN_BC";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "GQKN_BC";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);

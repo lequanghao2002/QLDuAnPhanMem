@@ -37,7 +37,7 @@
             // button1
             // 
             button1.Location = new Point(478, 258);
-            button1.Margin = new Padding(5, 5, 5, 5);
+            button1.Margin = new Padding(5);
             button1.Name = "button1";
             button1.Size = new Size(198, 78);
             button1.TabIndex = 0;
@@ -47,7 +47,7 @@
             // button2
             // 
             button2.Location = new Point(478, 432);
-            button2.Margin = new Padding(5, 5, 5, 5);
+            button2.Margin = new Padding(5);
             button2.Name = "button2";
             button2.Size = new Size(198, 78);
             button2.TabIndex = 0;
@@ -57,7 +57,7 @@
             // button3
             // 
             button3.Location = new Point(478, 610);
-            button3.Margin = new Padding(5, 5, 5, 5);
+            button3.Margin = new Padding(5);
             button3.Name = "button3";
             button3.Size = new Size(198, 78);
             button3.TabIndex = 0;
@@ -67,7 +67,7 @@
             // button4
             // 
             button4.Location = new Point(330, 53);
-            button4.Margin = new Padding(5, 5, 5, 5);
+            button4.Margin = new Padding(5);
             button4.Name = "button4";
             button4.Size = new Size(484, 61);
             button4.TabIndex = 1;
@@ -84,8 +84,9 @@
             Controls.Add(button3);
             Controls.Add(button2);
             Controls.Add(button1);
-            Margin = new Padding(5, 5, 5, 5);
+            Margin = new Padding(5);
             Name = "Xuat";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "CHỨC NĂNG XUẤT";
             ResumeLayout(false);
         }

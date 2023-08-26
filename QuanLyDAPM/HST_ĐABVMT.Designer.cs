@@ -423,6 +423,7 @@
             Controls.Add(label27);
             Controls.Add(textBox1);
             Name = "HST_ĐABVMT";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "HST_ĐABVMT";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);

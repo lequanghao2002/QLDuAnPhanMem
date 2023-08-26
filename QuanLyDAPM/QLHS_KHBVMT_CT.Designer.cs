@@ -421,6 +421,7 @@
             Controls.Add(label4);
             Controls.Add(label2);
             Name = "QLHS_KHBVMT_CT";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "QLHS_KHBVMT_CT";
             Load += QLHS_KHBVMT_CT_Load;
             ResumeLayout(false);

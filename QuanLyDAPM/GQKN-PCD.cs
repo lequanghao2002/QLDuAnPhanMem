@@ -14,7 +14,7 @@ namespace QuanLyDAPM
     {
         private ToolTip tt;
 
-    
+
         public GQKN_PCD()
         {
             InitializeComponent();

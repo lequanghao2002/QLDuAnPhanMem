@@ -189,6 +189,7 @@
             Controls.Add(textBox5);
             Controls.Add(label8);
             Name = "HSTD_KHBVMT_CK";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "HSTD_KHBVMT_CK";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);

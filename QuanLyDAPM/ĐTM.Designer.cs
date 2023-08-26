@@ -711,6 +711,7 @@
             Controls.Add(label27);
             Controls.Add(textBox1);
             Name = "ĐTM";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "ĐTM";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);

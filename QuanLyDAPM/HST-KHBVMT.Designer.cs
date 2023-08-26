@@ -106,7 +106,7 @@ partial class HST_KHBVMT
         // textBox8
         // 
         textBox8.Location = new Point(1428, 144);
-        textBox8.Margin = new Padding(5, 5, 5, 5);
+        textBox8.Margin = new Padding(5);
         textBox8.Name = "textBox8";
         textBox8.Size = new Size(87, 39);
         textBox8.TabIndex = 95;
@@ -114,7 +114,7 @@ partial class HST_KHBVMT
         // textBox9
         // 
         textBox9.Location = new Point(1264, 142);
-        textBox9.Margin = new Padding(5, 5, 5, 5);
+        textBox9.Margin = new Padding(5);
         textBox9.Name = "textBox9";
         textBox9.Size = new Size(61, 39);
         textBox9.TabIndex = 94;
@@ -122,7 +122,7 @@ partial class HST_KHBVMT
         // textBox10
         // 
         textBox10.Location = new Point(1098, 142);
-        textBox10.Margin = new Padding(5, 5, 5, 5);
+        textBox10.Margin = new Padding(5);
         textBox10.Name = "textBox10";
         textBox10.Size = new Size(61, 39);
         textBox10.TabIndex = 93;
@@ -130,7 +130,7 @@ partial class HST_KHBVMT
         // textBox11
         // 
         textBox11.Location = new Point(769, 144);
-        textBox11.Margin = new Padding(5, 5, 5, 5);
+        textBox11.Margin = new Padding(5);
         textBox11.Name = "textBox11";
         textBox11.Size = new Size(222, 39);
         textBox11.TabIndex = 92;
@@ -138,7 +138,7 @@ partial class HST_KHBVMT
         // textBox2
         // 
         textBox2.Location = new Point(135, 138);
-        textBox2.Margin = new Padding(5, 5, 5, 5);
+        textBox2.Margin = new Padding(5);
         textBox2.Name = "textBox2";
         textBox2.Size = new Size(41, 39);
         textBox2.TabIndex = 91;
@@ -178,7 +178,7 @@ partial class HST_KHBVMT
         // textBox1
         // 
         textBox1.Location = new Point(37, 42);
-        textBox1.Margin = new Padding(5, 5, 5, 5);
+        textBox1.Margin = new Padding(5);
         textBox1.Name = "textBox1";
         textBox1.PlaceholderText = "Tên chủ dự án ";
         textBox1.Size = new Size(527, 39);
@@ -197,7 +197,7 @@ partial class HST_KHBVMT
         // textBox3
         // 
         textBox3.Location = new Point(223, 139);
-        textBox3.Margin = new Padding(5, 5, 5, 5);
+        textBox3.Margin = new Padding(5);
         textBox3.Name = "textBox3";
         textBox3.Size = new Size(51, 39);
         textBox3.TabIndex = 99;
@@ -205,7 +205,7 @@ partial class HST_KHBVMT
         // textBox4
         // 
         textBox4.Location = new Point(518, 341);
-        textBox4.Margin = new Padding(5, 5, 5, 5);
+        textBox4.Margin = new Padding(5);
         textBox4.Name = "textBox4";
         textBox4.PlaceholderText = "Tên dự án";
         textBox4.Size = new Size(527, 39);
@@ -225,7 +225,7 @@ partial class HST_KHBVMT
         // textBox16
         // 
         textBox16.Location = new Point(1066, 658);
-        textBox16.Margin = new Padding(5, 5, 5, 5);
+        textBox16.Margin = new Padding(5);
         textBox16.Name = "textBox16";
         textBox16.Size = new Size(477, 39);
         textBox16.TabIndex = 115;
@@ -233,7 +233,7 @@ partial class HST_KHBVMT
         // textBox15
         // 
         textBox15.Location = new Point(540, 658);
-        textBox15.Margin = new Padding(5, 5, 5, 5);
+        textBox15.Margin = new Padding(5);
         textBox15.Name = "textBox15";
         textBox15.Size = new Size(430, 39);
         textBox15.TabIndex = 114;
@@ -261,7 +261,7 @@ partial class HST_KHBVMT
         // textBox14
         // 
         textBox14.Location = new Point(465, 598);
-        textBox14.Margin = new Padding(5, 5, 5, 5);
+        textBox14.Margin = new Padding(5);
         textBox14.Name = "textBox14";
         textBox14.Size = new Size(1078, 39);
         textBox14.TabIndex = 111;
@@ -278,7 +278,7 @@ partial class HST_KHBVMT
         // textBox13
         // 
         textBox13.Location = new Point(566, 546);
-        textBox13.Margin = new Padding(5, 5, 5, 5);
+        textBox13.Margin = new Padding(5);
         textBox13.Name = "textBox13";
         textBox13.Size = new Size(977, 39);
         textBox13.TabIndex = 109;
@@ -306,7 +306,7 @@ partial class HST_KHBVMT
         // textBox5
         // 
         textBox5.Location = new Point(154, 658);
-        textBox5.Margin = new Padding(5, 5, 5, 5);
+        textBox5.Margin = new Padding(5);
         textBox5.Name = "textBox5";
         textBox5.Size = new Size(314, 39);
         textBox5.TabIndex = 106;
@@ -324,7 +324,7 @@ partial class HST_KHBVMT
         // textBox6
         // 
         textBox6.Location = new Point(348, 493);
-        textBox6.Margin = new Padding(5, 5, 5, 5);
+        textBox6.Margin = new Padding(5);
         textBox6.Name = "textBox6";
         textBox6.Size = new Size(1195, 39);
         textBox6.TabIndex = 104;
@@ -352,7 +352,7 @@ partial class HST_KHBVMT
         // textBox7
         // 
         textBox7.Location = new Point(876, 845);
-        textBox7.Margin = new Padding(5, 5, 5, 5);
+        textBox7.Margin = new Padding(5);
         textBox7.Name = "textBox7";
         textBox7.Size = new Size(667, 39);
         textBox7.TabIndex = 120;
@@ -380,7 +380,7 @@ partial class HST_KHBVMT
         // textBox12
         // 
         textBox12.Location = new Point(960, 797);
-        textBox12.Margin = new Padding(5, 5, 5, 5);
+        textBox12.Margin = new Padding(5);
         textBox12.Name = "textBox12";
         textBox12.Size = new Size(582, 39);
         textBox12.TabIndex = 117;
@@ -410,7 +410,7 @@ partial class HST_KHBVMT
         // richTextBox1
         // 
         richTextBox1.Location = new Point(20, 934);
-        richTextBox1.Margin = new Padding(5, 5, 5, 5);
+        richTextBox1.Margin = new Padding(5);
         richTextBox1.Name = "richTextBox1";
         richTextBox1.Size = new Size(1523, 241);
         richTextBox1.TabIndex = 123;
@@ -420,7 +420,7 @@ partial class HST_KHBVMT
         // 
         button2.Font = new Font("Segoe UI", 10.2F, FontStyle.Regular, GraphicsUnit.Point);
         button2.Location = new Point(939, 1502);
-        button2.Margin = new Padding(5, 5, 5, 5);
+        button2.Margin = new Padding(5);
         button2.Name = "button2";
         button2.Size = new Size(314, 82);
         button2.TabIndex = 127;
@@ -431,7 +431,7 @@ partial class HST_KHBVMT
         // 
         button1.Font = new Font("Segoe UI", 10.2F, FontStyle.Regular, GraphicsUnit.Point);
         button1.Location = new Point(939, 1320);
-        button1.Margin = new Padding(5, 5, 5, 5);
+        button1.Margin = new Padding(5);
         button1.Name = "button1";
         button1.Size = new Size(314, 93);
         button1.TabIndex = 128;
@@ -519,8 +519,9 @@ partial class HST_KHBVMT
         Controls.Add(label12);
         Controls.Add(label11);
         Controls.Add(textBox1);
-        Margin = new Padding(5, 5, 5, 5);
+        Margin = new Padding(5);
         Name = "HST_KHBVMT";
+        StartPosition = FormStartPosition.CenterScreen;
         Text = "HST_KHBVMT";
         ResumeLayout(false);
         PerformLayout();

@@ -264,6 +264,7 @@
             Controls.Add(label27);
             Controls.Add(textBox1);
             Name = "VBPL_QCTCHH";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "VBPL_QCTCHH";
             Load += VBPL_QCTCHH_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();

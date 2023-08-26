@@ -507,6 +507,7 @@
             Controls.Add(textBox2);
             Controls.Add(textBox1);
             Name = "GQKN_VBTL";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "GQKN_VBTL";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);

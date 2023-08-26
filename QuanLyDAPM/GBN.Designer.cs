@@ -377,6 +377,7 @@
             Controls.Add(label27);
             Controls.Add(textBox1);
             Name = "GBN";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "GBN";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
